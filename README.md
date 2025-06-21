@@ -1,5 +1,40 @@
-# **Bigstone**
-Bigstone is a custom redstone-like system where components are supersized to a 16x16x16 block scale. Each Bigstone component simulates its function using regular redstone.
+> This is not made by the original creator of Bigstone and is instead a datapack for building using Bigstone.
+
+# **Bigstone Datapack and Standards**
+**A datapack that allows bigstoners to build with ease without needing to install mods!**
+
+### ANYONE CAN CONTRIBUTE, JUST OPEN A PULL REQUEST :D
+
+The datapack will be mainly developed by CrazyH2 (thehuckle), however standards are from the community and just formatted by me!
+
+## Planned Features
+
+- [ ] Importing Components
+- [ ] Building and exporting Components
+  - [ ] Automatic standards checker
+  - [ ] Shows where to upload after exporting
+- [ ] Building hotbar
+  - [ ] When the datapack is enabled slot 9 is reserved for starting bigstone building mode
+  - [ ] Left/Right buttons
+  - [ ] Saves your items before you enter bigstone building mode
+  - [ ] Load Components from imports
+  - [ ] Auto update after importing
+  - [ ] Drop item to rotate (Q)
+  - [ ] Offhand item to exit
+  - [ ] Custom Component tooltip
+    - [ ] Author name
+    - [ ] Component name
+    - [ ] Inputs and outputs
+    - [ ] Description
+- [ ] Credits and Info page ( discord too )
+- [ ] Save whole bigstone creations
+  - [ ] Author names
+  - [ ] Description
+  - [ ] Client version
+- [ ] Import bigstone creactions
+
+# **What is Bigstone?**
+**Bigstone is a custom redstone-like system where components are supersized to a 16x16x16 block scale. Each Bigstone component simulates its function using regular redstone.**
 
 While scaling redstone components to larger sizes like this isn’t a new idea, Bigstone goes further by:
 - Adding unique functionality to familiar components
