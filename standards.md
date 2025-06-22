@@ -40,7 +40,4 @@ All ports will be named in this format:
 - **Location:** IHEX-STATE at (5, 4) – OHEX-STATE at (11, 4)
 - Not in use (yet), but will be used to check the state of a redblock which is currently doing an operation.
 
-_List of all ports last updated 2025.06.22 at 11:21 GMT_
-
-_Standards last updated 2025.06.22 at 11:34 GMT_
-
+![Locations of each of the ports](Bigstone/assets/port_locations.png)
