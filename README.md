@@ -1,6 +1,6 @@
 > This is not made by the original creator of Bigstone and is instead a datapack for building using Bigstone.
 
-# **Bigstone Datapack and Standards**
+# **Bigstone Sandbox Datapack and Standards**
 **A datapack that allows bigstoners to build with ease without needing to install mods!**
 
 ### ANYONE CAN CONTRIBUTE, JUST OPEN A PULL REQUEST :D
