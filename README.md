@@ -42,3 +42,5 @@ While scaling redstone components to larger sizes like this isn’t a new idea, 
 - Following a consistent set of design rules to make components compatible with each other
 
 At this point, it’s no longer just “big redstone”, which is why I call it Bigstone!
+
+>> Check out docs/standards.md for more standards info. Your component won't be accept if it doesn't follow
