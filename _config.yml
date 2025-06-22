@@ -1,6 +1,6 @@
 title: BigStone Wiki
 description: A comprehensive guide to Bigstone, covering its features, usage, and best practices.
-remote_theme: jekyll/minima@v2.5.2
+remote_theme: minima@v2.5.2
 plugins:
   - jekyll-remote-theme
 minima:
