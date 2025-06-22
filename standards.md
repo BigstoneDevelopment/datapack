@@ -1,4 +1,4 @@
-# BIGSTONE PORT STANDARDS
+# Port Standards
 
 All ports will be named in this format:
 
