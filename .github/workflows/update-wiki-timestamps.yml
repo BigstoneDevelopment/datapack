@@ -1,12 +1,14 @@
 name: Update Wiki Timestamps
 
 on:
-  schedule:
-    - cron: '0 * * * *'  # every hour
+  push:
+    branches:
+      - wiki
   workflow_dispatch:      # allows manual run
 
 jobs:
   update-timestamps:
+    if: github.actor != 'github-actions'
     runs-on: ubuntu-latest
 
     steps:
@@ -23,9 +25,16 @@ jobs:
       - name: Replace last line of each .md file
         run: |
           for file in $(find . -name '*.md'); do
-            head -n -1 "$file" > tmpfile || true  # skip if only 1 line
-            echo "_Last updated: ${{ steps.get-time.outputs.time }}_" >> tmpfile
-            mv tmpfile "$file"
+            tmpfile=$(mktemp)
+            last_line=$(tail -n 1 "$file")
+            if [[ "$last_line" == "_Last updated:"* ]]; then
+              head -n -1 "$file" > "$tmpfile" || true  # skip if only 1 line
+            else
+              cp "$file" "$tmpfile"  # do not remove the last line if it isn't a last updated one
+              echo "" >> "$tmpfile"
+            fi
+            echo "_Last updated: ${{ steps.get-time.outputs.time }}_" >> "$tmpfile"
+            mv "$tmpfile" "$file"
           done
 
       - name: Commit and push changes
