@@ -38,4 +38,3 @@ All ports will be named in this format:
 -# List of all ports last updated 2025.06.22 at 11:21 GMT
 
 -# Standards last updated 2025.06.22 at 11:21 GMT
-
