@@ -1,8 +1,9 @@
 name: Update Wiki Timestamps
 
 on:
-  schedule:
-    - cron: '0 * * * *'  # every hour
+  push:
+    branches:
+      - wiki
   workflow_dispatch:      # allows manual run
 
 jobs:
