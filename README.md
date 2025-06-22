@@ -3,9 +3,10 @@
 # **Bigstone Sandbox Datapack and Standards**
 **A datapack that allows bigstoners to build with ease without needing to install mods!**
 
-### ANYONE CAN CONTRIBUTE, JUST OPEN A PULL REQUEST :D
-
 The datapack will be mainly developed by CrazyH2 (thehuckle), however standards are from the community and just formatted by me!
+
+### Wiki of Standards
+https://crazyh2.github.io/Bigstone/
 
 ## Planned Features
 
