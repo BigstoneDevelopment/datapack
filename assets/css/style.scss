@@ -1,7 +1,7 @@
 ---
 ---
 
-@import "{{ site.theme }}";
-
 $color-scheme-auto: false;
 $color-scheme-dark: true;
+
+@import "{{ site.theme }}";
