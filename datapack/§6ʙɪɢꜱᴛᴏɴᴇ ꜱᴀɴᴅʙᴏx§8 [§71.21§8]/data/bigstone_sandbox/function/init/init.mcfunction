@@ -1,0 +1,1 @@
+$execute unless data storage bigstone_sandbox:database players[{ID:$(ID)}] run data modify storage hotbar_menu:database players append from storage hotbar_menu:macro player

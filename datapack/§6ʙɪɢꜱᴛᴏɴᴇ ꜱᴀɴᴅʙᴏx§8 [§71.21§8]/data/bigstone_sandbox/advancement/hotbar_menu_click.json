@@ -1,0 +1,19 @@
+{
+    "criteria": {
+        "hotbar_menu": {
+            "trigger": "minecraft:using_item",
+            "conditions": {
+                "item": {
+                    "predicates": {
+                        "minecraft:custom_data": {
+                            "hotbar": {}
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "bigstone_sandbox:click"
+    }
+}

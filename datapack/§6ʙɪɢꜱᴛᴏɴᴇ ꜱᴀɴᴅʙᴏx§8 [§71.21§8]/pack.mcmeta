@@ -14,7 +14,6 @@
                 "color": "gray"
             }
         ],
-        "pack_format": 80,
-        "supported_formats": [ 48, 57, 61, 71, 80 ]
+        "pack_format": 80
     }
 }
