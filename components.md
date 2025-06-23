@@ -4,6 +4,7 @@ layout: default
 ---
 
 - [and](https://crazyh2.github.io/Bigstone/components/and.html)
+- [and_2_outputs](https://crazyh2.github.io/Bigstone/components/and_2_outputs.html)
 - [bin-hex_wire_straight](https://crazyh2.github.io/Bigstone/components/bin-hex_wire_straight.html)
 - [bin-hex_wire_straight_2](https://crazyh2.github.io/Bigstone/components/bin-hex_wire_straight_2.html)
 - [bin-hex_wire_straight_fast](https://crazyh2.github.io/Bigstone/components/bin-hex_wire_straight_fast.html)
@@ -43,4 +44,4 @@ layout: default
 - [skulk_dance_floor](https://crazyh2.github.io/Bigstone/components/skulk_dance_floor.html)
 - [ulg](https://crazyh2.github.io/Bigstone/components/ulg.html)
 - [xor](https://crazyh2.github.io/Bigstone/components/xor.html)
-_Last updated: 2025-06-23T18:56:50Z_
+_Last updated: 2025-06-23T19:10:20Z_
