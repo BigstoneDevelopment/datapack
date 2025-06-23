@@ -31,6 +31,7 @@ jobs:
           git stash pop
           cat tmp > components.md
           git add components.md
+          git rm tmp
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
           git commit -m "Update component list in wiki" || echo "No changes"
