@@ -45,6 +45,7 @@ jobs:
 
       - name: Make default pages
         run: |
+          mkdir -p components
           while IFS= read -r file; do
             filename="components/$file.md"
             if [ -f "$filename" ] && [ -s "$filename" ]; then
