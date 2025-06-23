@@ -15,9 +15,9 @@ https://crazyh2.github.io/Bigstone/
   - [ ] Automatic standards checker
   - [ ] Shows where to upload after exporting
 - [ ] Building hotbar
-  - [ ] When the datapack is enabled slot 9 is reserved for starting bigstone building mode
+  - [x] When the datapack is enabled slot 9 is reserved for starting bigstone building mode
   - [ ] Left/Right buttons
-  - [ ] Saves your items before you enter bigstone building mode
+  - [x] Saves your items before you enter bigstone building mode
   - [ ] Load Components from imports
   - [ ] Auto update after importing
   - [ ] Drop item to rotate (Q)
@@ -27,7 +27,7 @@ https://crazyh2.github.io/Bigstone/
     - [ ] Component name
     - [ ] Inputs and outputs
     - [ ] Description
-- [ ] Credits and Info page ( discord too )
+- [x] Credits and Info page ( discord too )
 - [ ] Save whole bigstone creations
   - [ ] Author names
   - [ ] Description
