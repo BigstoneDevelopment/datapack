@@ -10,6 +10,10 @@ https://crazyh2.github.io/Bigstone/
 
 ## Planned Features
 
+- [ ] Add contributer and dev teams on player join
+- [ ] Add options menu and button to open from info menu
+- [ ] Make sure all scoreboards start with bs
+- [ ] Add server options function to enable sidebar
 - [ ] Importing Components
 - [ ] Building and exporting Components
   - [ ] Automatic standards checker
