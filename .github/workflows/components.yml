@@ -15,7 +15,7 @@ jobs:
       - name: Run a multi-line script
         run: |
           shopt -s nullglob
-          for file in $(ls datapack/§6ʙɪɢꜱᴛᴏɴᴇ%20ꜱᴀɴᴅʙᴏx§8%20%5B§71.21§8%5D/data/bigstone/structures/*.nbt | sort); do
+          for file in $(ls "datapack/§6ʙɪɢꜱᴛᴏɴᴇ ꜱᴀɴᴅʙᴏx§8 [§71.21§8]/data/bigstone/structures/" | sort); do
             name=$(basename "$file" .nbt)
             echo "- [$name](https://crazyh2.github.io/Bigstone/components/$name)" >> tmp
             echo "- [$name](https://crazyh2.github.io/Bigstone/components/$name)"
