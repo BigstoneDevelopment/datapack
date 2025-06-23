@@ -43,5 +43,3 @@ layout: default
 - [skulk_dance_floor](https://crazyh2.github.io/Bigstone/components/skulk_dance_floor)
 - [ulg](https://crazyh2.github.io/Bigstone/components/ulg)
 - [xor](https://crazyh2.github.io/Bigstone/components/xor)
-
-_Last updated: 2025-06-23T01:18:27Z_
