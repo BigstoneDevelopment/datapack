@@ -45,4 +45,4 @@ layout: default
 - [xor](https://crazyh2.github.io/Bigstone/components/xor.html)
 
 
-_Last updated: 2025-06-23T20:23:20Z_
+_Last updated: 2025-06-23T20:23:50Z_
