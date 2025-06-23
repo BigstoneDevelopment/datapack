@@ -41,3 +41,5 @@ All ports will be named in this format:
 - Not in use (yet), but will be used to check the state of a redblock which is currently doing an operation.
 
 ![Locations of each of the ports](https://raw.githubusercontent.com/CrazyH2/Bigstone/main/assets/port_locations.png)
+
+_Last updated: 2025-06-23T00:32:58Z_
