@@ -45,7 +45,7 @@ jobs:
 
       - name: Make default pages
         run: |
-          while IFS= read -r ../not_a_file_because_github_can_t_checkout_multiple_branch_at_the_same_time; do
+          while IFS= read -r file; do
             filename = "components/$file"
             if [ -f "$filename" ] && [ -s "$filename" ]; then
               echo ""
@@ -57,7 +57,7 @@ jobs:
               echo "" >> "$filename"
               git add "$filename"
             fi
-          done < file_list.txt
+          done < ../not_a_file_because_github_can_t_checkout_multiple_branch_at_the_same_time
 
       - name: Commit to wiki
         run: |
