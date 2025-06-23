@@ -13,7 +13,6 @@ https://crazyh2.github.io/Bigstone/
 - [ ] Add contributer and dev teams on player join
 - [ ] Add options menu and button to open from info menu
 - [x] Make sure all scoreboards start with bs
-- [ ] Add server options function to enable sidebar
 - [ ] Importing Components
 - [ ] Make indicator helmet save player helmet before
 - [ ] Building and exporting Components
