@@ -46,7 +46,7 @@ jobs:
       - name: Make default pages
         run: |
           while IFS= read -r file; do
-            filename= "components/$file"
+            filename="components/$file"
             if [ -f "$filename" ] && [ -s "$filename" ]; then
               echo ""
             else
