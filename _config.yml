@@ -5,3 +5,4 @@ theme: minima
 header_pages:
   - index.md
   - standards.md
+  - components.md
