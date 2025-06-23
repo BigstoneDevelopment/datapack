@@ -19,6 +19,7 @@ jobs:
           echo "layout: default" >> tmp
           echo "---" >> tmp
           echo "" >> tmp
+          touch ../not_a_file_because_github_can_t_checkout_multiple_branch_at_the_same_time
 
       - name: Save everything
         run: |
@@ -26,11 +27,11 @@ jobs:
           for file in $(ls "datapack/§6ʙɪɢꜱᴛᴏɴᴇ ꜱᴀɴᴅʙᴏx§8 [§71.21§8]/data/bigstone/structures/" | sort); do
             name=$(basename "$file" .nbt)
             echo "- [$name](https://crazyh2.github.io/Bigstone/components/$name)" >> tmp
-            touch "https://crazyh2.github.io/Bigstone/components/$name"
+            echo "$name" >> ../not_a_file_because_github_can_t_checkout_multiple_branch_at_the_same_time
           done
           # for each remove the .nbt and make a link to [name](https://crazyh2.github.io/Bigstone/components/name]
 
-      - name: Commit to wiki
+      - name: Checkout wiki
         run: |
           git add .
           git stash push --staged
@@ -41,7 +42,25 @@ jobs:
           cat tmp > components.md
           git add components.md
           git rm tmp -f
-          git add components
+
+      - name: Make default pages
+        run: |
+          while IFS= read -r ../not_a_file_because_github_can_t_checkout_multiple_branch_at_the_same_time; do
+            filename = "components/$file"
+            if [ -f "$filename" ] && [ -s "$filename" ]; then
+              echo ""
+            else
+              echo "---" >> "$filename"
+              echo "title: $file" >> "$filename"
+              echo "layout: default" >> "$filename"
+              echo "---" >> "$filename"
+              echo "" >> "$filename"
+              git add "$filename"
+            fi
+          done < file_list.txt
+
+      - name: Commit to wiki
+        run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
           git commit -m "Update component list in wiki" || echo "No changes"
