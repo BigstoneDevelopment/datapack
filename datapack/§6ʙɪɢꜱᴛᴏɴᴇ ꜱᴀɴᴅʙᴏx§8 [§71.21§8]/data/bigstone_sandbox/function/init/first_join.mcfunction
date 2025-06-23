@@ -2,6 +2,15 @@
 scoreboard players enable @s bs
 scoreboard players enable @s bigstone_sandbox
 
+# Enabled scoreboard
+scoreboard players enable @s bigstone_sandbox_enabled
+scoreboard players enable @s bs_auto_exit
+scoreboard players set @s bs_auto_exit_state -1
+scoreboard players set @s bs_auto_exit_on -1
+
+# Add player to left scoreboard
+scoreboard players enable @s left
+
 # Hotbar scoreboard and storage
 data remove storage hotbar_menu:macro player
 

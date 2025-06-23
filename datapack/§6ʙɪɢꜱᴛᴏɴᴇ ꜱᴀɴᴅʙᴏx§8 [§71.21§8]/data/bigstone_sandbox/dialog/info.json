@@ -110,7 +110,83 @@
                     "color": "gray"
                 },
                 {
-                    "text": "\n\n\n\n\n\n\n\n\n"
+                    "text": "\n\n\n\n\n"
+                },
+
+                {
+                    "text": " Contributers",
+                    "color": "yellow"
+                },
+                {
+                    "text": "\n\n"
+                },
+
+                {
+                    "text": "@CrazyH2 - ",
+                    "color": "white",
+                    "click_event": {
+                        "action": "open_url",
+                        "url": "https://github.com/CrazyH2"
+                    }
+                },
+                {
+                    "text": "Datapack Developer & Repo Owner",
+                    "color": "gray"
+                },
+                {
+                    "text": "\n\n"
+                },
+
+                {
+                    "text": "@Spin4team4096 - ",
+                    "color": "white",
+                    "click_event": {
+                        "action": "open_url",
+                        "url": "https://github.com/Spin4team4096"
+                    }
+                },
+                {
+                    "text": "Wiki Standards Maintainer",
+                    "color": "gray"
+                },
+                {
+                    "text": "\n\n"
+                },
+
+                {
+                    "text": "@gingrspacecadet - ",
+                    "color": "white",
+                    "click_event": {
+                        "action": "open_url",
+                        "url": "https://github.com/gingrspacecadet"
+                    }
+                },
+                {
+                    "text": "Wiki Creator",
+                    "color": "gray"
+                },
+                {
+                    "text": "\n\n"
+                },
+
+                {
+                    "text": "@guigui0246 - ",
+                    "color": "white",
+                    "click_event": {
+                        "action": "open_url",
+                        "url": "https://github.com/guigui0246"
+                    }
+                },
+                {
+                    "text": "Imported all existing components",
+                    "color": "gray"
+                },
+                {
+                    "text": "\n\n"
+                },
+
+                {
+                    "text": "\n\n"
                 }
             ]
         }
@@ -160,8 +236,5 @@
         }
     ],
     "pause": false,
-    "can_close_with_escape": true,
-    "action": {
-        "label": "Ok"
-    }
+    "can_close_with_escape": true
 }

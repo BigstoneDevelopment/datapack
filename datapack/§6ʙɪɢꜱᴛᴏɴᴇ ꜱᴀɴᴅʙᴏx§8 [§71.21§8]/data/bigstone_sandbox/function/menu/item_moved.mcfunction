@@ -1,0 +1,256 @@
+# Next Button
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s inventory.* minecraft:player_head[item_name="previous_page_bigstone_sandbox"] run clear @s minecraft:player_head[item_name="previous_page_bigstone_sandbox"]
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s player.cursor minecraft:player_head[item_name="previous_page_bigstone_sandbox"] run item replace entity @s player.cursor with air
+execute if score @s bigstone_sandbox_enabled matches 1 run kill @e[name="previous_page_bigstone_sandbox"]
+execute if score @s bigstone_sandbox_enabled matches 1 unless items entity @s container.0 minecraft:player_head[item_name="previous_page_bigstone_sandbox"] run function bigstone_sandbox:menu/give_items
+
+# Next Button
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s inventory.* minecraft:player_head[item_name="next_page_bigstone_sandbox"] run clear @s minecraft:player_head[item_name="next_page_bigstone_sandbox"]
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s player.cursor minecraft:player_head[item_name="next_page_bigstone_sandbox"] run item replace entity @s player.cursor with air
+execute if score @s bigstone_sandbox_enabled matches 1 run kill @e[name="next_page_bigstone_sandbox"]
+execute if score @s bigstone_sandbox_enabled matches 1 unless items entity @s container.7 minecraft:player_head[item_name="next_page_bigstone_sandbox"] run function bigstone_sandbox:menu/give_items
+
+# Next Button
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s inventory.* minecraft:player_head[item_name="exit_bigstone_sandbox"] run clear @s minecraft:player_head[item_name="exit_bigstone_sandbox"]
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s player.cursor minecraft:barrier[item_name="exit_bigstone_sandbox"] run item replace entity @s player.cursor with air
+execute if score @s bigstone_sandbox_enabled matches 1 run kill @e[name="exit_bigstone_sandbox"]
+execute if score @s bigstone_sandbox_enabled matches 1 unless items entity @s container.8 minecraft:barrier[item_name="exit_bigstone_sandbox"] run function bigstone_sandbox:menu/give_items
+
+# Component (Temp fix as you can change the order of the components)
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s inventory.* minecraft:player_head[item_name="component_bigstone_sandbox"] run clear @s minecraft:player_head[item_name="component_bigstone_sandbox"]
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s player.cursor minecraft:player_head[item_name="component_bigstone_sandbox"] run item replace entity @s player.cursor with air
+
+execute if score @s bigstone_sandbox_enabled matches 1 run kill @e[name="component_bigstone_sandbox"]
+execute if score @s bigstone_sandbox_enabled matches 1 unless items entity @s container.1 minecraft:player_head[item_name="component_bigstone_sandbox"] run function bigstone_sandbox:menu/give_items
+
+execute if score @s bigstone_sandbox_enabled matches 1 run kill @e[name="component_bigstone_sandbox"]
+execute if score @s bigstone_sandbox_enabled matches 1 unless items entity @s container.2 minecraft:player_head[item_name="component_bigstone_sandbox"] run function bigstone_sandbox:menu/give_items
+
+execute if score @s bigstone_sandbox_enabled matches 1 run kill @e[name="component_bigstone_sandbox"]
+execute if score @s bigstone_sandbox_enabled matches 1 unless items entity @s container.3 minecraft:player_head[item_name="component_bigstone_sandbox"] run function bigstone_sandbox:menu/give_items
+
+execute if score @s bigstone_sandbox_enabled matches 1 run kill @e[name="component_bigstone_sandbox"]
+execute if score @s bigstone_sandbox_enabled matches 1 unless items entity @s container.4 minecraft:player_head[item_name="component_bigstone_sandbox"] run function bigstone_sandbox:menu/give_items
+
+execute if score @s bigstone_sandbox_enabled matches 1 run kill @e[name="component_bigstone_sandbox"]
+execute if score @s bigstone_sandbox_enabled matches 1 unless items entity @s container.5 minecraft:player_head[item_name="component_bigstone_sandbox"] run function bigstone_sandbox:menu/give_items
+
+execute if score @s bigstone_sandbox_enabled matches 1 run kill @e[name="component_bigstone_sandbox"]
+execute if score @s bigstone_sandbox_enabled matches 1 unless items entity @s container.6 minecraft:player_head[item_name="component_bigstone_sandbox"] run function bigstone_sandbox:menu/give_items
+
+
+# Replace items
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s armor.head minecraft:player_head[item_name="previous_page_bigstone_sandbox"] run item replace entity @s armor.head with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s armor.head minecraft:player_head[item_name="next_page_bigstone_sandbox"] run item replace entity @s armor.head with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s armor.head minecraft:player_head[item_name="component_bigstone_sandbox"] run item replace entity @s armor.head with air
+
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.1 minecraft:player_head[item_name="previous_page_bigstone_sandbox"] run item replace entity @s container.1 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.2 minecraft:player_head[item_name="previous_page_bigstone_sandbox"] run item replace entity @s container.2 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.3 minecraft:player_head[item_name="previous_page_bigstone_sandbox"] run item replace entity @s container.3 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.4 minecraft:player_head[item_name="previous_page_bigstone_sandbox"] run item replace entity @s container.4 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.5 minecraft:player_head[item_name="previous_page_bigstone_sandbox"] run item replace entity @s container.5 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.6 minecraft:player_head[item_name="previous_page_bigstone_sandbox"] run item replace entity @s container.6 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.7 minecraft:player_head[item_name="previous_page_bigstone_sandbox"] run item replace entity @s container.7 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.8 minecraft:player_head[item_name="previous_page_bigstone_sandbox"] run item replace entity @s container.8 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.9 minecraft:player_head[item_name="previous_page_bigstone_sandbox"] run item replace entity @s container.9 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.10 minecraft:player_head[item_name="previous_page_bigstone_sandbox"] run item replace entity @s container.10 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.11 minecraft:player_head[item_name="previous_page_bigstone_sandbox"] run item replace entity @s container.11 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.12 minecraft:player_head[item_name="previous_page_bigstone_sandbox"] run item replace entity @s container.12 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.13 minecraft:player_head[item_name="previous_page_bigstone_sandbox"] run item replace entity @s container.13 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.14 minecraft:player_head[item_name="previous_page_bigstone_sandbox"] run item replace entity @s container.14 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.15 minecraft:player_head[item_name="previous_page_bigstone_sandbox"] run item replace entity @s container.15 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.16 minecraft:player_head[item_name="previous_page_bigstone_sandbox"] run item replace entity @s container.16 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.17 minecraft:player_head[item_name="previous_page_bigstone_sandbox"] run item replace entity @s container.17 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.18 minecraft:player_head[item_name="previous_page_bigstone_sandbox"] run item replace entity @s container.18 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.19 minecraft:player_head[item_name="previous_page_bigstone_sandbox"] run item replace entity @s container.19 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.20 minecraft:player_head[item_name="previous_page_bigstone_sandbox"] run item replace entity @s container.20 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.21 minecraft:player_head[item_name="previous_page_bigstone_sandbox"] run item replace entity @s container.21 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.22 minecraft:player_head[item_name="previous_page_bigstone_sandbox"] run item replace entity @s container.22 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.23 minecraft:player_head[item_name="previous_page_bigstone_sandbox"] run item replace entity @s container.23 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.24 minecraft:player_head[item_name="previous_page_bigstone_sandbox"] run item replace entity @s container.24 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.25 minecraft:player_head[item_name="previous_page_bigstone_sandbox"] run item replace entity @s container.25 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.26 minecraft:player_head[item_name="previous_page_bigstone_sandbox"] run item replace entity @s container.26 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.27 minecraft:player_head[item_name="previous_page_bigstone_sandbox"] run item replace entity @s container.27 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.28 minecraft:player_head[item_name="previous_page_bigstone_sandbox"] run item replace entity @s container.28 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.29 minecraft:player_head[item_name="previous_page_bigstone_sandbox"] run item replace entity @s container.29 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.30 minecraft:player_head[item_name="previous_page_bigstone_sandbox"] run item replace entity @s container.30 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.31 minecraft:player_head[item_name="previous_page_bigstone_sandbox"] run item replace entity @s container.31 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.32 minecraft:player_head[item_name="previous_page_bigstone_sandbox"] run item replace entity @s container.32 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.33 minecraft:player_head[item_name="previous_page_bigstone_sandbox"] run item replace entity @s container.33 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.34 minecraft:player_head[item_name="previous_page_bigstone_sandbox"] run item replace entity @s container.34 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.35 minecraft:player_head[item_name="previous_page_bigstone_sandbox"] run item replace entity @s container.35 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.36 minecraft:player_head[item_name="previous_page_bigstone_sandbox"] run item replace entity @s container.36 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.37 minecraft:player_head[item_name="previous_page_bigstone_sandbox"] run item replace entity @s container.37 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.38 minecraft:player_head[item_name="previous_page_bigstone_sandbox"] run item replace entity @s container.38 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.39 minecraft:player_head[item_name="previous_page_bigstone_sandbox"] run item replace entity @s container.39 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.40 minecraft:player_head[item_name="previous_page_bigstone_sandbox"] run item replace entity @s container.40 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.41 minecraft:player_head[item_name="previous_page_bigstone_sandbox"] run item replace entity @s container.41 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.42 minecraft:player_head[item_name="previous_page_bigstone_sandbox"] run item replace entity @s container.42 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.43 minecraft:player_head[item_name="previous_page_bigstone_sandbox"] run item replace entity @s container.43 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.44 minecraft:player_head[item_name="previous_page_bigstone_sandbox"] run item replace entity @s container.44 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.45 minecraft:player_head[item_name="previous_page_bigstone_sandbox"] run item replace entity @s container.45 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.46 minecraft:player_head[item_name="previous_page_bigstone_sandbox"] run item replace entity @s container.46 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.47 minecraft:player_head[item_name="previous_page_bigstone_sandbox"] run item replace entity @s container.47 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.48 minecraft:player_head[item_name="previous_page_bigstone_sandbox"] run item replace entity @s container.48 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.49 minecraft:player_head[item_name="previous_page_bigstone_sandbox"] run item replace entity @s container.49 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.50 minecraft:player_head[item_name="previous_page_bigstone_sandbox"] run item replace entity @s container.50 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.51 minecraft:player_head[item_name="previous_page_bigstone_sandbox"] run item replace entity @s container.51 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.52 minecraft:player_head[item_name="previous_page_bigstone_sandbox"] run item replace entity @s container.52 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.53 minecraft:player_head[item_name="previous_page_bigstone_sandbox"] run item replace entity @s container.53 with air
+
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.0 minecraft:player_head[item_name="next_page_bigstone_sandbox"] run item replace entity @s container.0 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.1 minecraft:player_head[item_name="next_page_bigstone_sandbox"] run item replace entity @s container.1 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.2 minecraft:player_head[item_name="next_page_bigstone_sandbox"] run item replace entity @s container.2 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.3 minecraft:player_head[item_name="next_page_bigstone_sandbox"] run item replace entity @s container.3 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.4 minecraft:player_head[item_name="next_page_bigstone_sandbox"] run item replace entity @s container.4 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.5 minecraft:player_head[item_name="next_page_bigstone_sandbox"] run item replace entity @s container.5 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.6 minecraft:player_head[item_name="next_page_bigstone_sandbox"] run item replace entity @s container.6 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.8 minecraft:player_head[item_name="next_page_bigstone_sandbox"] run item replace entity @s container.8 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.9 minecraft:player_head[item_name="next_page_bigstone_sandbox"] run item replace entity @s container.9 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.10 minecraft:player_head[item_name="next_page_bigstone_sandbox"] run item replace entity @s container.10 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.11 minecraft:player_head[item_name="next_page_bigstone_sandbox"] run item replace entity @s container.11 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.12 minecraft:player_head[item_name="next_page_bigstone_sandbox"] run item replace entity @s container.12 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.13 minecraft:player_head[item_name="next_page_bigstone_sandbox"] run item replace entity @s container.13 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.14 minecraft:player_head[item_name="next_page_bigstone_sandbox"] run item replace entity @s container.14 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.15 minecraft:player_head[item_name="next_page_bigstone_sandbox"] run item replace entity @s container.15 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.16 minecraft:player_head[item_name="next_page_bigstone_sandbox"] run item replace entity @s container.16 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.17 minecraft:player_head[item_name="next_page_bigstone_sandbox"] run item replace entity @s container.17 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.18 minecraft:player_head[item_name="next_page_bigstone_sandbox"] run item replace entity @s container.18 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.19 minecraft:player_head[item_name="next_page_bigstone_sandbox"] run item replace entity @s container.19 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.20 minecraft:player_head[item_name="next_page_bigstone_sandbox"] run item replace entity @s container.20 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.21 minecraft:player_head[item_name="next_page_bigstone_sandbox"] run item replace entity @s container.21 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.22 minecraft:player_head[item_name="next_page_bigstone_sandbox"] run item replace entity @s container.22 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.23 minecraft:player_head[item_name="next_page_bigstone_sandbox"] run item replace entity @s container.23 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.24 minecraft:player_head[item_name="next_page_bigstone_sandbox"] run item replace entity @s container.24 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.25 minecraft:player_head[item_name="next_page_bigstone_sandbox"] run item replace entity @s container.25 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.26 minecraft:player_head[item_name="next_page_bigstone_sandbox"] run item replace entity @s container.26 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.27 minecraft:player_head[item_name="next_page_bigstone_sandbox"] run item replace entity @s container.27 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.28 minecraft:player_head[item_name="next_page_bigstone_sandbox"] run item replace entity @s container.28 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.29 minecraft:player_head[item_name="next_page_bigstone_sandbox"] run item replace entity @s container.29 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.30 minecraft:player_head[item_name="next_page_bigstone_sandbox"] run item replace entity @s container.30 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.31 minecraft:player_head[item_name="next_page_bigstone_sandbox"] run item replace entity @s container.31 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.32 minecraft:player_head[item_name="next_page_bigstone_sandbox"] run item replace entity @s container.32 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.33 minecraft:player_head[item_name="next_page_bigstone_sandbox"] run item replace entity @s container.33 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.34 minecraft:player_head[item_name="next_page_bigstone_sandbox"] run item replace entity @s container.34 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.35 minecraft:player_head[item_name="next_page_bigstone_sandbox"] run item replace entity @s container.35 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.36 minecraft:player_head[item_name="next_page_bigstone_sandbox"] run item replace entity @s container.36 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.37 minecraft:player_head[item_name="next_page_bigstone_sandbox"] run item replace entity @s container.37 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.38 minecraft:player_head[item_name="next_page_bigstone_sandbox"] run item replace entity @s container.38 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.39 minecraft:player_head[item_name="next_page_bigstone_sandbox"] run item replace entity @s container.39 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.40 minecraft:player_head[item_name="next_page_bigstone_sandbox"] run item replace entity @s container.40 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.41 minecraft:player_head[item_name="next_page_bigstone_sandbox"] run item replace entity @s container.41 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.42 minecraft:player_head[item_name="next_page_bigstone_sandbox"] run item replace entity @s container.42 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.43 minecraft:player_head[item_name="next_page_bigstone_sandbox"] run item replace entity @s container.43 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.44 minecraft:player_head[item_name="next_page_bigstone_sandbox"] run item replace entity @s container.44 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.45 minecraft:player_head[item_name="next_page_bigstone_sandbox"] run item replace entity @s container.45 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.46 minecraft:player_head[item_name="next_page_bigstone_sandbox"] run item replace entity @s container.46 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.47 minecraft:player_head[item_name="next_page_bigstone_sandbox"] run item replace entity @s container.47 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.48 minecraft:player_head[item_name="next_page_bigstone_sandbox"] run item replace entity @s container.48 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.49 minecraft:player_head[item_name="next_page_bigstone_sandbox"] run item replace entity @s container.49 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.50 minecraft:player_head[item_name="next_page_bigstone_sandbox"] run item replace entity @s container.50 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.51 minecraft:player_head[item_name="next_page_bigstone_sandbox"] run item replace entity @s container.51 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.52 minecraft:player_head[item_name="next_page_bigstone_sandbox"] run item replace entity @s container.52 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.53 minecraft:player_head[item_name="next_page_bigstone_sandbox"] run item replace entity @s container.53 with air
+
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.0 minecraft:barrier[item_name="exit_bigstone_sandbox"] run item replace entity @s container.0 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.1 minecraft:barrier[item_name="exit_bigstone_sandbox"] run item replace entity @s container.1 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.2 minecraft:barrier[item_name="exit_bigstone_sandbox"] run item replace entity @s container.2 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.3 minecraft:barrier[item_name="exit_bigstone_sandbox"] run item replace entity @s container.3 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.4 minecraft:barrier[item_name="exit_bigstone_sandbox"] run item replace entity @s container.4 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.5 minecraft:barrier[item_name="exit_bigstone_sandbox"] run item replace entity @s container.5 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.6 minecraft:barrier[item_name="exit_bigstone_sandbox"] run item replace entity @s container.6 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.7 minecraft:barrier[item_name="exit_bigstone_sandbox"] run item replace entity @s container.7 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.9 minecraft:barrier[item_name="exit_bigstone_sandbox"] run item replace entity @s container.9 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.10 minecraft:barrier[item_name="exit_bigstone_sandbox"] run item replace entity @s container.10 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.11 minecraft:barrier[item_name="exit_bigstone_sandbox"] run item replace entity @s container.11 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.12 minecraft:barrier[item_name="exit_bigstone_sandbox"] run item replace entity @s container.12 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.13 minecraft:barrier[item_name="exit_bigstone_sandbox"] run item replace entity @s container.13 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.14 minecraft:barrier[item_name="exit_bigstone_sandbox"] run item replace entity @s container.14 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.15 minecraft:barrier[item_name="exit_bigstone_sandbox"] run item replace entity @s container.15 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.16 minecraft:barrier[item_name="exit_bigstone_sandbox"] run item replace entity @s container.16 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.17 minecraft:barrier[item_name="exit_bigstone_sandbox"] run item replace entity @s container.17 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.18 minecraft:barrier[item_name="exit_bigstone_sandbox"] run item replace entity @s container.18 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.19 minecraft:barrier[item_name="exit_bigstone_sandbox"] run item replace entity @s container.19 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.20 minecraft:barrier[item_name="exit_bigstone_sandbox"] run item replace entity @s container.20 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.21 minecraft:barrier[item_name="exit_bigstone_sandbox"] run item replace entity @s container.21 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.22 minecraft:barrier[item_name="exit_bigstone_sandbox"] run item replace entity @s container.22 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.23 minecraft:barrier[item_name="exit_bigstone_sandbox"] run item replace entity @s container.23 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.24 minecraft:barrier[item_name="exit_bigstone_sandbox"] run item replace entity @s container.24 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.25 minecraft:barrier[item_name="exit_bigstone_sandbox"] run item replace entity @s container.25 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.26 minecraft:barrier[item_name="exit_bigstone_sandbox"] run item replace entity @s container.26 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.27 minecraft:barrier[item_name="exit_bigstone_sandbox"] run item replace entity @s container.27 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.28 minecraft:barrier[item_name="exit_bigstone_sandbox"] run item replace entity @s container.28 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.29 minecraft:barrier[item_name="exit_bigstone_sandbox"] run item replace entity @s container.29 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.30 minecraft:barrier[item_name="exit_bigstone_sandbox"] run item replace entity @s container.30 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.31 minecraft:barrier[item_name="exit_bigstone_sandbox"] run item replace entity @s container.31 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.32 minecraft:barrier[item_name="exit_bigstone_sandbox"] run item replace entity @s container.32 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.33 minecraft:barrier[item_name="exit_bigstone_sandbox"] run item replace entity @s container.33 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.34 minecraft:barrier[item_name="exit_bigstone_sandbox"] run item replace entity @s container.34 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.35 minecraft:barrier[item_name="exit_bigstone_sandbox"] run item replace entity @s container.35 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.36 minecraft:barrier[item_name="exit_bigstone_sandbox"] run item replace entity @s container.36 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.37 minecraft:barrier[item_name="exit_bigstone_sandbox"] run item replace entity @s container.37 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.38 minecraft:barrier[item_name="exit_bigstone_sandbox"] run item replace entity @s container.38 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.39 minecraft:barrier[item_name="exit_bigstone_sandbox"] run item replace entity @s container.39 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.40 minecraft:barrier[item_name="exit_bigstone_sandbox"] run item replace entity @s container.40 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.41 minecraft:barrier[item_name="exit_bigstone_sandbox"] run item replace entity @s container.41 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.42 minecraft:barrier[item_name="exit_bigstone_sandbox"] run item replace entity @s container.42 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.43 minecraft:barrier[item_name="exit_bigstone_sandbox"] run item replace entity @s container.43 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.44 minecraft:barrier[item_name="exit_bigstone_sandbox"] run item replace entity @s container.44 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.45 minecraft:barrier[item_name="exit_bigstone_sandbox"] run item replace entity @s container.45 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.46 minecraft:barrier[item_name="exit_bigstone_sandbox"] run item replace entity @s container.46 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.47 minecraft:barrier[item_name="exit_bigstone_sandbox"] run item replace entity @s container.47 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.48 minecraft:barrier[item_name="exit_bigstone_sandbox"] run item replace entity @s container.48 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.49 minecraft:barrier[item_name="exit_bigstone_sandbox"] run item replace entity @s container.49 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.50 minecraft:barrier[item_name="exit_bigstone_sandbox"] run item replace entity @s container.50 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.51 minecraft:barrier[item_name="exit_bigstone_sandbox"] run item replace entity @s container.51 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.52 minecraft:barrier[item_name="exit_bigstone_sandbox"] run item replace entity @s container.52 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.53 minecraft:barrier[item_name="exit_bigstone_sandbox"] run item replace entity @s container.53 with air
+
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.0 minecraft:player_head[item_name="component_bigstone_sandbox"] run item replace entity @s container.0 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.7 minecraft:player_head[item_name="component_bigstone_sandbox"] run item replace entity @s container.7 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.8 minecraft:player_head[item_name="component_bigstone_sandbox"] run item replace entity @s container.8 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.9 minecraft:player_head[item_name="component_bigstone_sandbox"] run item replace entity @s container.9 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.10 minecraft:player_head[item_name="component_bigstone_sandbox"] run item replace entity @s container.10 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.11 minecraft:player_head[item_name="component_bigstone_sandbox"] run item replace entity @s container.11 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.12 minecraft:player_head[item_name="component_bigstone_sandbox"] run item replace entity @s container.12 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.13 minecraft:player_head[item_name="component_bigstone_sandbox"] run item replace entity @s container.13 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.14 minecraft:player_head[item_name="component_bigstone_sandbox"] run item replace entity @s container.14 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.15 minecraft:player_head[item_name="component_bigstone_sandbox"] run item replace entity @s container.15 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.16 minecraft:player_head[item_name="component_bigstone_sandbox"] run item replace entity @s container.16 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.17 minecraft:player_head[item_name="component_bigstone_sandbox"] run item replace entity @s container.17 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.18 minecraft:player_head[item_name="component_bigstone_sandbox"] run item replace entity @s container.18 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.19 minecraft:player_head[item_name="component_bigstone_sandbox"] run item replace entity @s container.19 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.20 minecraft:player_head[item_name="component_bigstone_sandbox"] run item replace entity @s container.20 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.21 minecraft:player_head[item_name="component_bigstone_sandbox"] run item replace entity @s container.21 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.22 minecraft:player_head[item_name="component_bigstone_sandbox"] run item replace entity @s container.22 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.23 minecraft:player_head[item_name="component_bigstone_sandbox"] run item replace entity @s container.23 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.24 minecraft:player_head[item_name="component_bigstone_sandbox"] run item replace entity @s container.24 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.25 minecraft:player_head[item_name="component_bigstone_sandbox"] run item replace entity @s container.25 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.26 minecraft:player_head[item_name="component_bigstone_sandbox"] run item replace entity @s container.26 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.27 minecraft:player_head[item_name="component_bigstone_sandbox"] run item replace entity @s container.27 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.28 minecraft:player_head[item_name="component_bigstone_sandbox"] run item replace entity @s container.28 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.29 minecraft:player_head[item_name="component_bigstone_sandbox"] run item replace entity @s container.29 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.30 minecraft:player_head[item_name="component_bigstone_sandbox"] run item replace entity @s container.30 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.31 minecraft:player_head[item_name="component_bigstone_sandbox"] run item replace entity @s container.31 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.32 minecraft:player_head[item_name="component_bigstone_sandbox"] run item replace entity @s container.32 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.33 minecraft:player_head[item_name="component_bigstone_sandbox"] run item replace entity @s container.33 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.34 minecraft:player_head[item_name="component_bigstone_sandbox"] run item replace entity @s container.34 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.35 minecraft:player_head[item_name="component_bigstone_sandbox"] run item replace entity @s container.35 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.36 minecraft:player_head[item_name="component_bigstone_sandbox"] run item replace entity @s container.36 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.37 minecraft:player_head[item_name="component_bigstone_sandbox"] run item replace entity @s container.37 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.38 minecraft:player_head[item_name="component_bigstone_sandbox"] run item replace entity @s container.38 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.39 minecraft:player_head[item_name="component_bigstone_sandbox"] run item replace entity @s container.39 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.40 minecraft:player_head[item_name="component_bigstone_sandbox"] run item replace entity @s container.40 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.41 minecraft:player_head[item_name="component_bigstone_sandbox"] run item replace entity @s container.41 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.42 minecraft:player_head[item_name="component_bigstone_sandbox"] run item replace entity @s container.42 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.43 minecraft:player_head[item_name="component_bigstone_sandbox"] run item replace entity @s container.43 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.44 minecraft:player_head[item_name="component_bigstone_sandbox"] run item replace entity @s container.44 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.45 minecraft:player_head[item_name="component_bigstone_sandbox"] run item replace entity @s container.45 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.46 minecraft:player_head[item_name="component_bigstone_sandbox"] run item replace entity @s container.46 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.47 minecraft:player_head[item_name="component_bigstone_sandbox"] run item replace entity @s container.47 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.48 minecraft:player_head[item_name="component_bigstone_sandbox"] run item replace entity @s container.48 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.49 minecraft:player_head[item_name="component_bigstone_sandbox"] run item replace entity @s container.49 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.50 minecraft:player_head[item_name="component_bigstone_sandbox"] run item replace entity @s container.50 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.51 minecraft:player_head[item_name="component_bigstone_sandbox"] run item replace entity @s container.51 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.52 minecraft:player_head[item_name="component_bigstone_sandbox"] run item replace entity @s container.52 with air
+execute if score @s bigstone_sandbox_enabled matches 1 if items entity @s container.53 minecraft:player_head[item_name="component_bigstone_sandbox"] run item replace entity @s container.53 with air
