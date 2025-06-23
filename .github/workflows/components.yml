@@ -11,6 +11,10 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
+   
+      - name: Get current UTC time
+        id: get-time
+        run: echo "time=$(date -u +'%Y-%m-%dT%H:%M:%SZ')" >> "$GITHUB_OUTPUT"
 
       - name: Init file
         run: |
@@ -30,6 +34,7 @@ jobs:
             echo "$name" >> ../not_a_file_because_github_can_t_checkout_multiple_branch_at_the_same_time
           done
           # for each remove the .nbt and make a link to [name](https://crazyh2.github.io/Bigstone/components/name]
+          echo "_Last updated: ${{ steps.get-time.outputs.time }}_" >> tmp
 
       - name: Checkout wiki
         run: |
@@ -57,6 +62,7 @@ jobs:
               echo "---" >> "$filename"
               echo "" >> "$filename"
               echo "This page is not yet made. If you want to contribute please do so [here](https://github.com/CrazyH2/Bigstone/blob/wiki/$filename)." >> "$filename"
+              echo "_Last updated: ${{ steps.get-time.outputs.time }}_" >> "$filename"
               git add "$filename"
             fi
           done < ../not_a_file_because_github_can_t_checkout_multiple_branch_at_the_same_time
