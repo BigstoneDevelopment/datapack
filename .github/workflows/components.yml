@@ -26,6 +26,7 @@ jobs:
           git add tmp
           git stash push --staged
           git reset --hard
+          git fetch origin wiki:wiki
           git checkout wiki
           git stash pop
           cat tmp > components.md
