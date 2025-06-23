@@ -1,3 +1,4 @@
-[*](https://crazyh2.github.io/Bigstone/components/*)
-
-_Last updated: 2025-06-23T00:35:21Z_
+- [LICENSE](https://crazyh2.github.io/Bigstone/components/LICENSE)
+- [README.md](https://crazyh2.github.io/Bigstone/components/README.md)
+- [assets](https://crazyh2.github.io/Bigstone/components/assets)
+- [datapack](https://crazyh2.github.io/Bigstone/components/datapack)
