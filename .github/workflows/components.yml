@@ -15,9 +15,10 @@ jobs:
       - name: Run a multi-line script
         run: |
           dir="datapack/§6ʙɪɢꜱᴛᴏɴᴇ%20ꜱᴀɴᴅʙᴏx§8%20%5B§71.21§8%5D/data/bigstone/structures"
-          for file in "$dir"/*.nbt; do
+          shopt -s nullglob
+          for file in $(ls $dir/*.nbt | sort); do
             name=$(basename "$file" .nbt)
-            echo "[$name](https://crazyh2.github.io/Bigstone/components/$name)" >> tmp
+            echo "- [$name](https://crazyh2.github.io/Bigstone/components/$name)" >> tmp
           done
           # for each remove the .nbt and make a link to [name](https://crazyh2.github.io/Bigstone/components/name]
 
