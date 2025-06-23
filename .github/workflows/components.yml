@@ -34,6 +34,8 @@ jobs:
             echo "$name" >> ../not_a_file_because_github_can_t_checkout_multiple_branch_at_the_same_time
           done
           # for each remove the .nbt and make a link to [name](https://crazyh2.github.io/Bigstone/components/name]
+          echo "" >> tmp
+          echo "" >> tmp
           echo "_Last updated: ${{ steps.get-time.outputs.time }}_" >> tmp
 
       - name: Checkout wiki
