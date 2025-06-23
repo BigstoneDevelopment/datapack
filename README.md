@@ -21,7 +21,6 @@ https://crazyh2.github.io/Bigstone/
   - [ ] Load Components from imports
   - [ ] Auto update after importing
   - [ ] Drop item to rotate (Q)
-  - [ ] Offhand item to exit
   - [ ] Custom Component tooltip
     - [ ] Author name
     - [ ] Component name
