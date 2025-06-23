@@ -42,4 +42,4 @@ All ports will be named in this format:
 
 ![Locations of each of the ports](https://raw.githubusercontent.com/CrazyH2/Bigstone/main/assets/port_locations.png)
 
-_Last updated: 2025-06-23T01:17:11Z_
+_Last updated: 2025-06-23T01:18:27Z_
