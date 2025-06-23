@@ -3,6 +3,7 @@ title: Components
 layout: default
 ---
 
+- [3waybin_to_bin-hex-hexstate](https://crazyh2.github.io/Bigstone/components/3waybin_to_bin-hex-hexstate.html)
 - [and](https://crazyh2.github.io/Bigstone/components/and.html)
 - [and_2_outputs](https://crazyh2.github.io/Bigstone/components/and_2_outputs.html)
 - [bin-hex_wire_straight](https://crazyh2.github.io/Bigstone/components/bin-hex_wire_straight.html)
@@ -22,6 +23,7 @@ layout: default
 - [directional_pressure_plate](https://crazyh2.github.io/Bigstone/components/directional_pressure_plate.html)
 - [dispenser_pre_item_standards](https://crazyh2.github.io/Bigstone/components/dispenser_pre_item_standards.html)
 - [hard_repeater](https://crazyh2.github.io/Bigstone/components/hard_repeater.html)
+- [hex-bin-hexstate_multiconnector](https://crazyh2.github.io/Bigstone/components/hex-bin-hexstate_multiconnector.html)
 - [hex_wire_corner](https://crazyh2.github.io/Bigstone/components/hex_wire_corner.html)
 - [hex_wire_corner_2](https://crazyh2.github.io/Bigstone/components/hex_wire_corner_2.html)
 - [hex_wire_long_straight](https://crazyh2.github.io/Bigstone/components/hex_wire_long_straight.html)
@@ -44,4 +46,4 @@ layout: default
 - [skulk_dance_floor](https://crazyh2.github.io/Bigstone/components/skulk_dance_floor.html)
 - [ulg](https://crazyh2.github.io/Bigstone/components/ulg.html)
 - [xor](https://crazyh2.github.io/Bigstone/components/xor.html)
-_Last updated: 2025-06-23T19:10:20Z_
+_Last updated: 2025-06-23T19:40:06Z_
