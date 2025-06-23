@@ -12,7 +12,15 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Run a multi-line script
+      - name: Init file
+        run: |
+          echo "---" >> tmp
+          echo "title: Components" >> tmp
+          echo "layout: default" >> tmp
+          echo "---" >> tmp
+          echo "" >> tmp
+
+      - name: Save everything
         run: |
           shopt -s nullglob
           for file in $(ls "datapack/§6ʙɪɢꜱᴛᴏɴᴇ ꜱᴀɴᴅʙᴏx§8 [§71.21§8]/data/bigstone/structures/" | sort); do
