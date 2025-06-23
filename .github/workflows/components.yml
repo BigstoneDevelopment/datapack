@@ -1,0 +1,36 @@
+name: Components wiki
+
+on:
+  push:
+    branches: [ "main" ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Run a multi-line script
+        run: |
+          dir="datapack/§6ʙɪɢꜱᴛᴏɴᴇ%20ꜱᴀɴᴅʙᴏx§8%20%5B§71.21§8%5D/data/bigstone/structures"
+          for file in "$dir"/*.nbt; do
+            name=$(basename "$file" .nbt)
+            echo "[$name](https://crazyh2.github.io/Bigstone/components/$name)" >> tmp
+          done
+          // for each remove the .nbt and make a link to [name](https://crazyh2.github.io/Bigstone/components/name]
+
+      - name: Commit to wiki
+        run: |
+          git add tmp
+          git stash push --staged
+          git reset --hard
+          git checkout wiki
+          git stash pop
+          cat tmp > components.md
+          git add components.md
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git commit -m "Update component list in wiki" || echo "No changes"
+          git push origin wiki
