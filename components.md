@@ -41,8 +41,10 @@ layout: default
 - [redstoneblock](https://crazyh2.github.io/Bigstone/components/redstoneblock.html)
 - [repeater](https://crazyh2.github.io/Bigstone/components/repeater.html)
 - [skulk_dance_floor](https://crazyh2.github.io/Bigstone/components/skulk_dance_floor.html)
+- [stone_pressure_plate](https://crazyh2.github.io/Bigstone/components/stone_pressure_plate.html)
 - [ulg](https://crazyh2.github.io/Bigstone/components/ulg.html)
+- [wooden_pressure_plate](https://crazyh2.github.io/Bigstone/components/wooden_pressure_plate.html)
 - [xor](https://crazyh2.github.io/Bigstone/components/xor.html)
 
 
-_Last updated: 2025-06-23T20:23:50Z_
+_Last updated: 2025-06-23T21:13:15Z_
