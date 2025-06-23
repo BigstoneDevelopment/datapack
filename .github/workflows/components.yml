@@ -26,12 +26,13 @@ jobs:
           for file in $(ls "datapack/§6ʙɪɢꜱᴛᴏɴᴇ ꜱᴀɴᴅʙᴏx§8 [§71.21§8]/data/bigstone/structures/" | sort); do
             name=$(basename "$file" .nbt)
             echo "- [$name](https://crazyh2.github.io/Bigstone/components/$name)" >> tmp
+            touch "https://crazyh2.github.io/Bigstone/components/$name"
           done
           # for each remove the .nbt and make a link to [name](https://crazyh2.github.io/Bigstone/components/name]
 
       - name: Commit to wiki
         run: |
-          git add tmp
+          git add .
           git stash push --staged
           git reset --hard
           git fetch origin wiki:wiki
@@ -40,6 +41,7 @@ jobs:
           cat tmp > components.md
           git add components.md
           git rm tmp -f
+          git add components
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
           git commit -m "Update component list in wiki" || echo "No changes"
