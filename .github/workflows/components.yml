@@ -19,7 +19,7 @@ jobs:
             name=$(basename "$file" .nbt)
             echo "[$name](https://crazyh2.github.io/Bigstone/components/$name)" >> tmp
           done
-          // for each remove the .nbt and make a link to [name](https://crazyh2.github.io/Bigstone/components/name]
+          # for each remove the .nbt and make a link to [name](https://crazyh2.github.io/Bigstone/components/name]
 
       - name: Commit to wiki
         run: |
