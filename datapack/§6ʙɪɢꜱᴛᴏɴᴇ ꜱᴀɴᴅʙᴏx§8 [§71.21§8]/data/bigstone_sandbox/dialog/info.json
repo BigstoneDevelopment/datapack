@@ -181,7 +181,7 @@
                     "color": "gray"
                 },
                 {
-                    "text": "\n\n"
+                    "text": "\n"
                 }
             ]
         }
@@ -193,8 +193,8 @@
                 "color": "gray"
             },
             "action": {
-                "type": "show_dialog",
-                "dialog": "bigstone_sandbox:options"
+                "type": "run_command",
+                "command": "trigger bs_options"
             }
         },
         {

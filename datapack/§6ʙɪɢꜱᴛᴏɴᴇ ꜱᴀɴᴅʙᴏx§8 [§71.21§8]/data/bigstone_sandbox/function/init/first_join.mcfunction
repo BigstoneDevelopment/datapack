@@ -12,7 +12,7 @@ scoreboard players enable @s bs_invert_rotating
 scoreboard players enable @s bs_visual_component_outline
 scoreboard players enable @s bs_change_page_on_hold
 scoreboard players enable @s bs_show_block_preview
-
+# Default values
 scoreboard players set @s bs_info_dialog_on_join_VAL 1
 scoreboard players set @s bs_auto_exit_on_join_VAL -1
 scoreboard players set @s bs_invert_rotating_VAL -1

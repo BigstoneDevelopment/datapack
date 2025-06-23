@@ -13,3 +13,9 @@ data modify storage bigstone_sandbox:data hotbar append from storage bigstone_sa
 data modify storage bigstone_sandbox:data hotbar[].components merge value {}
 $data remove storage bigstone_sandbox:database players[{bs_ID:$(bs_ID)}].hotbar 
 $data modify storage bigstone_sandbox:database players[{bs_ID:$(bs_ID)}].hotbar set from storage bigstone_sandbox:data hotbar
+
+# Save helmet slot
+data remove storage bigstone_sandbox:data helmet
+data modify storage bigstone_sandbox:data helmet set from entity @s equipment.head
+$data remove storage bigstone_sandbox:database players[{bs_ID:$(bs_ID)}].helmet
+$data modify storage bigstone_sandbox:database players[{bs_ID:$(bs_ID)}].helmet set from storage bigstone_sandbox:data helmet

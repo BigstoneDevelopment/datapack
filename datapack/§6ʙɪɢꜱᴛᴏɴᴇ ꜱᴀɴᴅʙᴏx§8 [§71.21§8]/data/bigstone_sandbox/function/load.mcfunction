@@ -30,3 +30,7 @@ scoreboard objectives add bs_show_block_preview trigger
 scoreboard objectives add bs_ID dummy
 scoreboard objectives add bs_hotbar.timestamp dummy
 scoreboard objectives add bigstone_sandbox_enabled dummy
+
+# Consts
+scoreboard objectives add bs_negative_one dummy
+scoreboard players set val bs_negative_one -1
