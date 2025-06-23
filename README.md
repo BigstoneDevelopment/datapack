@@ -15,7 +15,7 @@ https://crazyh2.github.io/Bigstone/
   - [ ] Automatic standards checker
   - [ ] Shows where to upload after exporting
 - [ ] Building hotbar
-  - [ ] Auto exit when leave option
+  - [x] Auto exit when leave option
   - [x] When the datapack is enabled slot 9 is reserved for starting bigstone building mode
   - [ ] Left/Right buttons
   - [x] Saves your items before you enter bigstone building mode
