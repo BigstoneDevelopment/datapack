@@ -52,13 +52,13 @@ Please wait.
 # SECTION 2: NAMING SCHEME
 When sharing a redblock, try to stick to this format:
 
-`[Redblock name]
-[Description here]
+[Redblock name]  
+[Description here]  
 
-North: OHEX
-South: IBIN, IHEX
-East: IBIN
-West: IHEX`
+North: OHEX  
+South: IBIN, IHEX  
+East: IBIN  
+West: IHEX  
 
 You could also represent this with a diagram, with colored arrows. Input arrows would point towards the block, output would point away from it. Here's the above example, this time as a diagram:
 ![Redblock diagram example](https://raw.githubusercontent.com/CrazyH2/Bigstone/main/assets/diagram_example.png)
