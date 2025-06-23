@@ -24,7 +24,7 @@ jobs:
       - name: Save everything
         run: |
           shopt -s nullglob
-          for file in $(ls "datapack/§6ʙɪɢꜱᴛᴏɴᴇ ꜱᴀɴᴅʙᴏx§8 [§71.21§8]/data/bigstone/structures/" | sort); do
+          for file in $(ls "datapack/§6ʙɪɢꜱᴛᴏɴᴇ ꜱᴀɴᴅʙᴏx§8 [§71.21§8]/data/components/structures/" | sort); do
             name=$(basename "$file" .nbt)
             echo "- [$name](https://crazyh2.github.io/Bigstone/components/$name.html)" >> tmp
             echo "$name" >> ../not_a_file_because_github_can_t_checkout_multiple_branch_at_the_same_time
