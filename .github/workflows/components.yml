@@ -46,7 +46,7 @@ jobs:
       - name: Make default pages
         run: |
           while IFS= read -r file; do
-            filename="components/$file"
+            filename="components/$file.md"
             if [ -f "$filename" ] && [ -s "$filename" ]; then
               echo ""
             else
@@ -55,6 +55,7 @@ jobs:
               echo "layout: default" >> "$filename"
               echo "---" >> "$filename"
               echo "" >> "$filename"
+              echo "This page is not yet made. If you want to contribute please do so [here](https://github.com/CrazyH2/Bigstone/blob/wiki/$filename)." >> "$filename"
               git add "$filename"
             fi
           done < ../not_a_file_because_github_can_t_checkout_multiple_branch_at_the_same_time
