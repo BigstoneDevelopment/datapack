@@ -1,20 +1,32 @@
 # Enable trigger commands
 scoreboard players enable @s bs
 scoreboard players enable @s bigstone_sandbox
+scoreboard players enable @s bs_options
 
 # Enabled scoreboard
 scoreboard players enable @s bigstone_sandbox_enabled
-scoreboard players enable @s bs_auto_exit
-scoreboard players set @s bs_auto_exit_state -1
-scoreboard players set @s bs_auto_exit_on -1
+# Options
+scoreboard players enable @s bs_info_dialog_on_join
+scoreboard players enable @s bs_auto_exit_on_join
+scoreboard players enable @s bs_invert_rotating
+scoreboard players enable @s bs_visual_component_outline
+scoreboard players enable @s bs_change_page_on_hold
+scoreboard players enable @s bs_show_block_preview
+
+scoreboard players set @s bs_info_dialog_on_join_VAL 1
+scoreboard players set @s bs_auto_exit_on_join_VAL -1
+scoreboard players set @s bs_invert_rotating_VAL -1
+scoreboard players set @s bs_visual_component_outline_VAL 1
+scoreboard players set @s bs_change_page_on_hold_VAL -1
+scoreboard players set @s bs_show_block_preview_VAL 1
 
 # Add player to left scoreboard
-scoreboard players enable @s left
+scoreboard players enable @s bs_left
 
 # Hotbar scoreboard and storage
 data remove storage hotbar_menu:macro player
 
-execute unless score @s ID = @s ID store result score @s ID run scoreboard players add #new ID 1
-execute store result storage hotbar_menu:macro player.ID int 1 run scoreboard players get @s ID
+execute unless score @s bs_ID = @s bs_ID store result score @s bs_ID run scoreboard players add #new bs_ID 1
+execute store result storage hotbar_menu:macro player.bs_ID int 1 run scoreboard players get @s bs_ID
 
 function bigstone_sandbox:init/init with storage hotbar_menu:macro player

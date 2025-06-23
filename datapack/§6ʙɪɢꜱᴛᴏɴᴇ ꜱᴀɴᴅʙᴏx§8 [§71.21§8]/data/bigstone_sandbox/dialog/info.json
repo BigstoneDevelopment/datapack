@@ -6,7 +6,6 @@
         {
             "type": "minecraft:plain_message",
             "contents": [
-                "",
                 {
                     "text": "Bigstone Sandbox",
                     "color": "yellow",
@@ -183,15 +182,21 @@
                 },
                 {
                     "text": "\n\n"
-                },
-
-                {
-                    "text": "\n\n"
                 }
             ]
         }
     ],
     "actions": [
+        {
+            "label": {
+                "text": "Options",
+                "color": "gray"
+            },
+            "action": {
+                "type": "show_dialog",
+                "dialog": "bigstone_sandbox:options"
+            }
+        },
         {
             "label": {
                 "text": "Open Github",
@@ -230,7 +235,7 @@
         },
         {
             "label": {
-                "text": "Back",
+                "text": "Ok",
                 "color": "gold"
             }
         }

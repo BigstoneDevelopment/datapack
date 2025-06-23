@@ -1,5 +1,5 @@
 # Reset score
-scoreboard players set @s left 0
+scoreboard players set @s bs_left 0
 
 # Show info dialog
 dialog show @s bigstone_sandbox:info

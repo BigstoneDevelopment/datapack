@@ -1,6 +1,6 @@
 # Handle storage
 data remove storage bigstone_sandbox:macro player
-execute store result storage bigstone_sandbox:macro player.ID int 1 run scoreboard players get @s ID
+execute store result storage bigstone_sandbox:macro player.bs_ID int 1 run scoreboard players get @s bs_ID
 function bigstone_sandbox:menu/save with storage bigstone_sandbox:macro player
 function bigstone_sandbox:menu/clear
 

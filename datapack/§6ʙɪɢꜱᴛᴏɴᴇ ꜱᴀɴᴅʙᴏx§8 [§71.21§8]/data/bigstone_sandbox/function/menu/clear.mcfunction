@@ -7,3 +7,5 @@ item replace entity @s hotbar.5 with minecraft:air
 item replace entity @s hotbar.6 with minecraft:air
 item replace entity @s hotbar.7 with minecraft:air
 item replace entity @s hotbar.8 with minecraft:air
+
+item replace entity @s armor.head with minecraft:air

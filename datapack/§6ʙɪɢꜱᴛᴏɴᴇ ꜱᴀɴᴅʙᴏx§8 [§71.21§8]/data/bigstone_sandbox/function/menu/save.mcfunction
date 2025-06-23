@@ -11,5 +11,5 @@ data modify storage bigstone_sandbox:data hotbar append from storage bigstone_sa
 data modify storage bigstone_sandbox:data hotbar append from storage bigstone_sandbox:data inv[{Slot:7b}]
 data modify storage bigstone_sandbox:data hotbar append from storage bigstone_sandbox:data inv[{Slot:8b}]
 data modify storage bigstone_sandbox:data hotbar[].components merge value {}
-$data remove storage bigstone_sandbox:database players[{ID:$(ID)}].hotbar 
-$data modify storage bigstone_sandbox:database players[{ID:$(ID)}].hotbar set from storage bigstone_sandbox:data hotbar
+$data remove storage bigstone_sandbox:database players[{bs_ID:$(bs_ID)}].hotbar 
+$data modify storage bigstone_sandbox:database players[{bs_ID:$(bs_ID)}].hotbar set from storage bigstone_sandbox:data hotbar
