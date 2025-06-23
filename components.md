@@ -1,3 +1,8 @@
+---
+title: Components
+layout: default
+---
+
 - [and](https://crazyh2.github.io/Bigstone/components/and)
 - [bin-hex_wire_straight](https://crazyh2.github.io/Bigstone/components/bin-hex_wire_straight)
 - [bin-hex_wire_straight_2](https://crazyh2.github.io/Bigstone/components/bin-hex_wire_straight_2)
