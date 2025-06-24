@@ -3,6 +3,10 @@ title: Components
 layout: default
 ---
 
+- [7_segment_display_with_rbi](https://crazyh2.github.io/Bigstone/components/7_segment_display_with_rbi.html)
+- [8bit_wire_PRE_STANDARDS](https://crazyh2.github.io/Bigstone/components/8bit_wire_PRE_STANDARDS.html)
+- [8bit_wire_lturn_PRE_STANDARDS](https://crazyh2.github.io/Bigstone/components/8bit_wire_lturn_PRE_STANDARDS.html)
+- [8bit_wire_rturn_PRE_STANDARDS](https://crazyh2.github.io/Bigstone/components/8bit_wire_rturn_PRE_STANDARDS.html)
 - [and](https://crazyh2.github.io/Bigstone/components/and.html)
 - [bin-hex_wire_straight](https://crazyh2.github.io/Bigstone/components/bin-hex_wire_straight.html)
 - [bin-hex_wire_straight_2](https://crazyh2.github.io/Bigstone/components/bin-hex_wire_straight_2.html)
@@ -21,6 +25,8 @@ layout: default
 - [directional_pressure_plate](https://crazyh2.github.io/Bigstone/components/directional_pressure_plate.html)
 - [dispenser_pre_item_standards](https://crazyh2.github.io/Bigstone/components/dispenser_pre_item_standards.html)
 - [hard_repeater](https://crazyh2.github.io/Bigstone/components/hard_repeater.html)
+- [hex_keyboard_reader](https://crazyh2.github.io/Bigstone/components/hex_keyboard_reader.html)
+- [hex_reading_wire](https://crazyh2.github.io/Bigstone/components/hex_reading_wire.html)
 - [hex_wire_corner](https://crazyh2.github.io/Bigstone/components/hex_wire_corner.html)
 - [hex_wire_corner_2](https://crazyh2.github.io/Bigstone/components/hex_wire_corner_2.html)
 - [hex_wire_long_straight](https://crazyh2.github.io/Bigstone/components/hex_wire_long_straight.html)
@@ -43,8 +49,11 @@ layout: default
 - [skulk_dance_floor](https://crazyh2.github.io/Bigstone/components/skulk_dance_floor.html)
 - [stone_pressure_plate](https://crazyh2.github.io/Bigstone/components/stone_pressure_plate.html)
 - [ulg](https://crazyh2.github.io/Bigstone/components/ulg.html)
+- [vertical_adapter_PRE_STANDARDS](https://crazyh2.github.io/Bigstone/components/vertical_adapter_PRE_STANDARDS.html)
+- [vertical_wire](https://crazyh2.github.io/Bigstone/components/vertical_wire.html)
+- [_PRE_STANDARDS](https://crazyh2.github.io/Bigstone/components/_PRE_STANDARDS.html)
 - [wooden_pressure_plate](https://crazyh2.github.io/Bigstone/components/wooden_pressure_plate.html)
 - [xor](https://crazyh2.github.io/Bigstone/components/xor.html)
 
 
-_Last updated: 2025-06-23T21:13:15Z_
+_Last updated: 2025-06-24T06:38:04Z_
