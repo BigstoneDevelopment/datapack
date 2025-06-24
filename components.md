@@ -17,6 +17,7 @@ layout: default
 - [bin-hex_wire_straight](https://crazyh2.github.io/Bigstone/components/bin-hex_wire_straight.html)
 - [bin-hex_wire_straight_2](https://crazyh2.github.io/Bigstone/components/bin-hex_wire_straight_2.html)
 - [bin-hex_wire_straight_fast](https://crazyh2.github.io/Bigstone/components/bin-hex_wire_straight_fast.html)
+- [bin_to_dec](https://crazyh2.github.io/Bigstone/components/bin_to_dec.html)
 - [bin_wire_2in2out](https://crazyh2.github.io/Bigstone/components/bin_wire_2in2out.html)
 - [bin_wire_2in2out_cross](https://crazyh2.github.io/Bigstone/components/bin_wire_2in2out_cross.html)
 - [bin_wire_bridge](https://crazyh2.github.io/Bigstone/components/bin_wire_bridge.html)
@@ -71,6 +72,7 @@ layout: default
 - [purple_wool](https://crazyh2.github.io/Bigstone/components/purple_wool.html)
 - [random](https://crazyh2.github.io/Bigstone/components/random.html)
 - [red_wool](https://crazyh2.github.io/Bigstone/components/red_wool.html)
+- [redstone_torch](https://crazyh2.github.io/Bigstone/components/redstone_torch.html)
 - [redstoneblock](https://crazyh2.github.io/Bigstone/components/redstoneblock.html)
 - [repeater](https://crazyh2.github.io/Bigstone/components/repeater.html)
 - [skulk_dance_floor](https://crazyh2.github.io/Bigstone/components/skulk_dance_floor.html)
@@ -85,4 +87,4 @@ layout: default
 - [yellow_wool](https://crazyh2.github.io/Bigstone/components/yellow_wool.html)
 
 
-_Last updated: 2025-06-24T21:39:18Z_
+_Last updated: 2025-06-24T22:57:25Z_
