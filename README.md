@@ -11,10 +11,10 @@ https://crazyh2.github.io/Bigstone/
 ## Planned Features
 
 - [ ] Add contributer and dev teams on player join
-- [ ] Add options menu and button to open from info menu
+- [x] Add options menu and button to open from info menu
 - [x] Make sure all scoreboards start with bs
 - [ ] Importing Components
-- [ ] Make indicator helmet save player helmet before
+- [x] Make indicator helmet save player helmet before
 - [ ] Building and exporting Components
   - [ ] Automatic standards checker
   - [ ] Shows where to upload after exporting
