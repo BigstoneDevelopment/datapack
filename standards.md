@@ -43,9 +43,12 @@ All ports will be named in this format:
 - **Location:** IHEX-STATE at (5, 4) – OHEX-STATE at (11, 4)
 - (Under development) Used to check the state of a redblock which is currently doing an operation. The component can decide what signal strength each state is. If a component decides multiple states counts as the same value it should pulse when changing between them to indicate the state has changed (But try avoid having multiple states output the same thing). (Examples: A comparator could return the value of the state; an observer can "observe" the state to know if it has changed). You could use this output to make your bigstone circuit do certain things!
 
+### HEX-2 COMING SOON
+The port locations are still being discussed and created. LimeLight is working on it
+
 ### ITEM PORTS COMING SOON
 I need to check it out first to make sure this wiki is accurate ;) 
-Please wait.
+Please wait. guigui0246 is working on this one
 
 ![Locations of each of the ports](https://raw.githubusercontent.com/CrazyH2/Bigstone/main/assets/port_locations.png)
 
@@ -60,7 +63,7 @@ South: IBIN, IHEX
 East: IBIN  
 West: IHEX  
 
-You could also represent this with a diagram, with colored arrows. Input arrows would point towards the block, output would point away from it. Here's the above example, this time as a diagram:
+You could also represent this with a diagram, with colored arrows. Input arrows would point towards the block, output would point away from it. Here's the above example, this time as a diagram:  
 ![Redblock diagram example](https://raw.githubusercontent.com/CrazyH2/Bigstone/main/assets/diagram_example.png)
 
 _Last updated: 2025-06-23T16:54:00Z_
