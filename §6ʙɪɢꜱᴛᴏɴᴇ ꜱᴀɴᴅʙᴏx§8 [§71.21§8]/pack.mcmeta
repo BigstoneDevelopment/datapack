@@ -1,0 +1,19 @@
+{
+    "pack": {
+        "description": [
+            {
+                "text": "ᴀ ꜱɪᴍᴘʟᴇ ʙɪɢꜱᴛᴏɴᴇ ᴇᴅɪᴛᴏʀ",
+                "color": "yellow"
+            },
+            {
+                "text": "\n"
+            },
+            {
+                "text": "@CrazyH2 - On Github!                   ",
+                "italic": true,
+                "color": "gray"
+            }
+        ],
+        "pack_format": 80
+    }
+}
