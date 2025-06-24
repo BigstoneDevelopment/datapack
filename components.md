@@ -23,6 +23,7 @@ layout: default
 - [bin_wire_vertical](https://crazyh2.github.io/Bigstone/components/bin_wire_vertical.html)
 - [binary_to_decimal_module](https://crazyh2.github.io/Bigstone/components/binary_to_decimal_module.html)
 - [clock_broken](https://crazyh2.github.io/Bigstone/components/clock_broken.html)
+- [comparator](https://crazyh2.github.io/Bigstone/components/comparator.html)
 - [comparator_pre_state](https://crazyh2.github.io/Bigstone/components/comparator_pre_state.html)
 - [copper_bulb](https://crazyh2.github.io/Bigstone/components/copper_bulb.html)
 - [directional_pressure_plate](https://crazyh2.github.io/Bigstone/components/directional_pressure_plate.html)
@@ -59,4 +60,4 @@ layout: default
 - [xor](https://crazyh2.github.io/Bigstone/components/xor.html)
 
 
-_Last updated: 2025-06-24T21:04:06Z_
+_Last updated: 2025-06-24T21:22:51Z_
