@@ -86,4 +86,4 @@ West: IHEX
 You could also represent this with a diagram, with colored arrows. Input arrows would point towards the block, output would point away from it. Here's the above example, this time as a diagram:  
 ![Redblock diagram example](https://raw.githubusercontent.com/CrazyH2/Bigstone/main/assets/diagram_example.png)
 
-_Last updated: 2025-06-24T19:33:58Z_
+_Last updated: 2025-06-24T21:39:18Z_
