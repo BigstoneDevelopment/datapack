@@ -3,6 +3,8 @@ title: Components
 layout: default
 ---
 
+- [3_way_carrier](https://crazyh2.github.io/Bigstone/components/3_way_carrier.html)
+- [3_way_connector](https://crazyh2.github.io/Bigstone/components/3_way_connector.html)
 - [7_segment_display_with_rbi](https://crazyh2.github.io/Bigstone/components/7_segment_display_with_rbi.html)
 - [8bit_wire_PRE_STANDARDS](https://crazyh2.github.io/Bigstone/components/8bit_wire_PRE_STANDARDS.html)
 - [8bit_wire_lturn_PRE_STANDARDS](https://crazyh2.github.io/Bigstone/components/8bit_wire_lturn_PRE_STANDARDS.html)
@@ -19,6 +21,7 @@ layout: default
 - [bin_wire_split](https://crazyh2.github.io/Bigstone/components/bin_wire_split.html)
 - [bin_wire_straight](https://crazyh2.github.io/Bigstone/components/bin_wire_straight.html)
 - [bin_wire_vertical](https://crazyh2.github.io/Bigstone/components/bin_wire_vertical.html)
+- [binary_to_decimal_module](https://crazyh2.github.io/Bigstone/components/binary_to_decimal_module.html)
 - [clock_broken](https://crazyh2.github.io/Bigstone/components/clock_broken.html)
 - [comparator_pre_state](https://crazyh2.github.io/Bigstone/components/comparator_pre_state.html)
 - [copper_bulb](https://crazyh2.github.io/Bigstone/components/copper_bulb.html)
@@ -56,4 +59,4 @@ layout: default
 - [xor](https://crazyh2.github.io/Bigstone/components/xor.html)
 
 
-_Last updated: 2025-06-24T09:53:49Z_
+_Last updated: 2025-06-24T13:52:59Z_
