@@ -9,6 +9,12 @@ scoreboard objectives add bs_left minecraft.custom:minecraft.leave_game
 scoreboard objectives add bs trigger
 # Info about this project
 scoreboard objectives add bigstone_sandbox trigger
+# Rotating
+scoreboard objectives add bs_rotate_x trigger
+scoreboard objectives add bs_rotate_y trigger
+
+scoreboard objectives add bs_rotate_x_VAL dummy
+scoreboard objectives add bs_rotate_y_VAL dummy
 # Options
 scoreboard objectives add bs_options trigger
 
@@ -34,3 +40,6 @@ scoreboard objectives add bigstone_sandbox_enabled dummy
 # Consts
 scoreboard objectives add bs_negative_one dummy
 scoreboard players set val bs_negative_one -1
+
+scoreboard objectives add bs_rotation_max dummy
+scoreboard players set val bs_rotation_max 270
