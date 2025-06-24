@@ -5,6 +5,7 @@ layout: default
 
 - [3_way_carrier](https://crazyh2.github.io/Bigstone/components/3_way_carrier.html)
 - [3_way_connector](https://crazyh2.github.io/Bigstone/components/3_way_connector.html)
+- [7_segment_display_horizontal](https://crazyh2.github.io/Bigstone/components/7_segment_display_horizontal.html)
 - [7_segment_display_with_rbi](https://crazyh2.github.io/Bigstone/components/7_segment_display_with_rbi.html)
 - [8bit_wire_PRE_STANDARDS](https://crazyh2.github.io/Bigstone/components/8bit_wire_PRE_STANDARDS.html)
 - [8bit_wire_lturn_PRE_STANDARDS](https://crazyh2.github.io/Bigstone/components/8bit_wire_lturn_PRE_STANDARDS.html)
@@ -60,4 +61,4 @@ layout: default
 - [xor](https://crazyh2.github.io/Bigstone/components/xor.html)
 
 
-_Last updated: 2025-06-24T21:22:51Z_
+_Last updated: 2025-06-24T21:24:45Z_
