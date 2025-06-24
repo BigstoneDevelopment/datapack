@@ -21,7 +21,7 @@ All ports will be named in this format:
 - **[#PORTS]** > The number of ports it has, as a number. If it only has 1 port, you don't have to include this tag! _(e.g. Just BIN instead of BIN-1)_
 - **[ROLE]** > Most ports will be SD (Standard), but ports with specific roles will have different colors and have a different named tag. For example, HEX-STATE. If the port is SD you don't have to include this tag! _(e.g. just HEX instead of HEX-SD)_
 
-# Port Types
+# Redstone Port Types
 
 - Each port would have a corresponding colored concrete block under it. 
 - Locations of the port holes are in (X, Y), in which (1, 1) is the bottom left block on a 16x16 face looking from the side of a chunk. _(Clarification: Port HOLES, not the concrete position)_
@@ -44,13 +44,33 @@ All ports will be named in this format:
 - (Under development) Used to check the state of a redblock which is currently doing an operation. The component can decide what signal strength each state is. If a component decides multiple states counts as the same value it should pulse when changing between them to indicate the state has changed (But try avoid having multiple states output the same thing). (Examples: A comparator could return the value of the state; an observer can "observe" the state to know if it has changed). You could use this output to make your bigstone circuit do certain things!
 
 ### HEX-2 COMING SOON
-The port locations are still being discussed and created. LimeLight is working on it
-
-### ITEM PORTS COMING SOON
-I need to check it out first to make sure this wiki is accurate ;) 
-Please wait. guigui0246 is working on this one
+The port locations are still being discussed and created. LimeLight is working on it.
 
 ![Locations of each of the ports](https://raw.githubusercontent.com/CrazyH2/Bigstone/main/assets/port_locations.png)
+
+# Item Port Types
+- Each port is a 2x2 space in the middle of a block, and can be on all sides. It's not labeled with a color since you can easily see if it uses water or hoppers.
+
+### ITEM-HOPPER
+- **Side Locations:** 
+- BITEM > The left side of the port is input hoppers, and the right side of the port is for output hoppers. 
+- IITEM > The whole port uses input hoppers.
+- OITEM > The whole port uses output hoppers.
+- **Top/Bottom Locations:**
+- IITEM > Top of the block.
+- OITEM > Bottom of the block.
+- Transports items using hoppers. Reccomended to use BITEM on the sides as it is multidirectional. If you want speed, try to use ITEM-WATER instead of IITEM/OITEM-HOPPER when possible
+
+### ITEM-WATER
+- **Side Locations:**
+- IITEM > Water flowing inwards
+- OITEM > Water flowing outwards
+- **Top/Bottom Locations:**
+- IITEM > Top of the block.
+- OITEM > Bottom of the block.
+- Transports items using water streams. It is faster, but unlike ITEM-HOPPER, it cannot be multidirectional on the sides.
+
+_IMAGES COMING SOON_
 
 # SECTION 2: NAMING SCHEME
 When sharing a redblock, try to stick to this format:
