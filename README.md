@@ -21,8 +21,6 @@ https://crazyh2.github.io/Bigstone/
   - [x] When the datapack is enabled slot 9 is reserved for starting bigstone building mode
   - [ ] Left/Right buttons
   - [x] Saves your items before you enter bigstone building mode
-  - [ ] Load Components from imports
-  - [ ] Auto update after importing
   - [x] Drop item to rotate (Q)
   - [ ] Custom Component tooltip
     - [ ] Author name
