@@ -1,0 +1,47 @@
+{
+  "name": "@sfxcode/vitepress-blog-starter",
+  "type": "module",
+  "version": "1.0.3",
+  "packageManager": "pnpm@9.15.3+sha512.1f79bc245a66eb0b07c5d4d83131240774642caaa86ef7d0434ab47c0d16f66b04e21e0c086eb61e62c77efc4d7f7ec071afad3796af64892fae66509173893a",
+  "description": "Vitepress Starter, UnoCSS, Anu, Blog",
+  "author": "Tom Lamers",
+  "license": "MIT",
+  "keywords": [
+    "Vitepress",
+    "Starter",
+    "UnoCSS",
+    "Anu"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "serve": "vitepress serve docs",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix .",
+    "release": "npm run lint && npm run build && changelogen --patch --release  && git push --follow-tags"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^4.1.1",
+    "@anu-vue/preset-theme-default": "^0.15.2",
+    "@iconify-json/bx": "^1.2.2",
+    "@iconify-json/fluent-emoji": "^1.2.3",
+    "@iconify-json/heroicons-outline": "^1.2.1",
+    "@iconify-json/logos": "^1.2.4",
+    "@types/node": "^22.13.1",
+    "@unocss/preset-icons": "65.4.3",
+    "@unocss/preset-uno": "65.4.3",
+    "@vueuse/core": "^12.5.0",
+    "anu-vue": "^0.15.2",
+    "changelogen": "^0.5.7",
+    "date-fns": "^4.1.0",
+    "eslint": "^9.20.0",
+    "fs-extra": "^11.3.0",
+    "gray-matter": "^4.0.3",
+    "markdown-it": "^14.1.0",
+    "typescript": "^5.7.3",
+    "unocss": "65.4.3",
+    "vitepress": "^1.6.3",
+    "vue": "^3.5.13"
+  }
+}
