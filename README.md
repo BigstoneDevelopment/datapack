@@ -12,7 +12,6 @@ https://crazyh2.github.io/Bigstone/
 
 - [x] Add options menu and button to open from info menu
 - [x] Make sure all scoreboards start with bs
-- [ ] Importing Components
 - [x] Make indicator helmet save player helmet before
 - [ ] Building and exporting Components
   - [ ] Automatic standards checker
