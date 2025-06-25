@@ -1,5 +1,8 @@
 function bigstone_sandbox:menu/clear
 
+$data modify storage bigstone_sandbox:macro player.offhand set from storage bigstone_sandbox:database players[{bs_ID:$(bs_ID)}].offhand
+function bigstone_sandbox:menu/load_offhand with storage bigstone_sandbox:macro player.offhand
+
 $data modify storage bigstone_sandbox:macro player.helmet set from storage bigstone_sandbox:database players[{bs_ID:$(bs_ID)}].helmet
 function bigstone_sandbox:menu/load_helmet with storage bigstone_sandbox:macro player.helmet
 

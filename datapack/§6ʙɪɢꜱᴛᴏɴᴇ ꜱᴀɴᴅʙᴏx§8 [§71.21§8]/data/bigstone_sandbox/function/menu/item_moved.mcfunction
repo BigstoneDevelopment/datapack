@@ -48,9 +48,11 @@ execute if items entity @s player.crafting.0 minecraft:player_head[item_name="co
 execute if items entity @s player.crafting.1 minecraft:player_head[item_name="component_bigstone_sandbox"] run item replace entity @s player.crafting.1 with air
 execute if items entity @s player.crafting.2 minecraft:player_head[item_name="component_bigstone_sandbox"] run item replace entity @s player.crafting.2 with air
 execute if items entity @s player.crafting.3 minecraft:player_head[item_name="component_bigstone_sandbox"] run item replace entity @s player.crafting.3 with air
-#execute if items entity @s weapon.offhand minecraft:player_head[item_name="component_bigstone_sandbox"] run item replace entity @s weapon.offhand with air
+execute if items entity @s weapon.offhand minecraft:player_head[item_name="component_bigstone_sandbox"] run item replace entity @s weapon.offhand with air
 execute if items entity @s player.cursor minecraft:player_head[item_name="component_bigstone_sandbox"] run item replace entity @s player.cursor with air
 execute if score @s bigstone_sandbox_enabled matches 0 run kill @e[name="component_bigstone_sandbox"]
+
+execute if score @s bigstone_sandbox_enabled matches 1 unless items entity @s weapon.offhand minecraft:player_head[item_name="component_bigstone_sandbox"] run item replace entity @s weapon.offhand with minecraft:air
 
 execute if score @s bigstone_sandbox_enabled matches 1 unless items entity @s container.1 minecraft:player_head[item_name="component_bigstone_sandbox"] run item replace entity @s container.1 with minecraft:air
 execute if score @s bigstone_sandbox_enabled matches 1 unless items entity @s container.2 minecraft:player_head[item_name="component_bigstone_sandbox"] run item replace entity @s container.2 with minecraft:air

@@ -9,3 +9,5 @@ item replace entity @s hotbar.7 with minecraft:air
 item replace entity @s hotbar.8 with minecraft:air
 
 item replace entity @s armor.head with minecraft:air
+
+item replace entity @s weapon.offhand with minecraft:air

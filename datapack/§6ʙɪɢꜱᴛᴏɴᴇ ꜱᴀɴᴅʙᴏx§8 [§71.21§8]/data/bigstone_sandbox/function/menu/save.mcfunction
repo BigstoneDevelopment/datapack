@@ -20,3 +20,10 @@ data modify storage bigstone_sandbox:data helmet set from entity @s equipment.he
 data modify storage bigstone_sandbox:data helmet.components merge value {}
 $data remove storage bigstone_sandbox:database players[{bs_ID:$(bs_ID)}].helmet
 $data modify storage bigstone_sandbox:database players[{bs_ID:$(bs_ID)}].helmet set from storage bigstone_sandbox:data helmet
+
+# Save offhand slot
+data remove storage bigstone_sandbox:data offhand
+data modify storage bigstone_sandbox:data offhand set from entity @s equipment.offhand
+data modify storage bigstone_sandbox:data offhand.components merge value {}
+$data remove storage bigstone_sandbox:database players[{bs_ID:$(bs_ID)}].offhand
+$data modify storage bigstone_sandbox:database players[{bs_ID:$(bs_ID)}].offhand set from storage bigstone_sandbox:data offhand
