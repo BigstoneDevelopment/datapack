@@ -24,7 +24,7 @@ https://crazyh2.github.io/Bigstone/
   - [x] Saves your items before you enter bigstone building mode
   - [ ] Load Components from imports
   - [ ] Auto update after importing
-  - [ ] Drop item to rotate (Q)
+  - [x] Drop item to rotate (Q)
   - [ ] Custom Component tooltip
     - [ ] Author name
     - [ ] Component name
