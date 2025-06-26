@@ -6,7 +6,7 @@
 The datapack will be mainly developed by CrazyH2 (thehuckle), however standards are from the community and just formatted by me!
 
 ### Wiki of Standards
-https://wiki.bigstone.ovh
+[wiki.bigstone.ovh](https://wiki.bigstone.ovh)
 
 ## Planned Features
 
