@@ -22,11 +22,11 @@ https://crazyh2.github.io/Bigstone/
   - [ ] Left/Right buttons
   - [x] Saves your items before you enter bigstone building mode
   - [x] Drop item to rotate (Q)
-  - [ ] Custom Component tooltip
-    - [ ] Author name
-    - [ ] Component name
+  - [x] Custom Component tooltip
+    - [x] Author name
+    - [x] Component name
     - [ ] Inputs and outputs
-    - [ ] Description
+    - [x] Description
 - [x] Credits and Info page ( discord too )
 - [ ] Save whole bigstone creations
   - [ ] Author names

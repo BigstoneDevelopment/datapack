@@ -1,0 +1,17 @@
+Bigstone Sandbox Datapack
+A datapack that allows bigstoners to build with ease without needing to install mods!
+
+The datapack is mainly developed by CrazyH2 (thehuckle)
+
+
+THE WIKI:
+http://wiki.bigstone.ovh
+
+THE REPO:
+https://github.com/CrazyH2/Bigstone
+
+
+© Copyright 2025 CrazyH2
+This datapack was originally made by CrazyH2
+You Must Follow the license to use this datapack.
+NOTE: YOU HAVE TO FOLLOW IT ANYWAYS

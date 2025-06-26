@@ -43,3 +43,13 @@ scoreboard players set val bs_negative_one -1
 
 scoreboard objectives add bs_rotation_max dummy
 scoreboard players set val bs_rotation_max 270
+
+# Storage manipulation
+data remove storage bigstone_sandbox:components structures
+data remove storage bigstone_sandbox:components loaded
+data remove storage bigstone_sandbox:components args
+
+data modify storage bigstone_sandbox:components args set value {}
+
+# Add delay so you can see reload msg
+schedule function bigstone_sandbox:util/init_default_components 2s
