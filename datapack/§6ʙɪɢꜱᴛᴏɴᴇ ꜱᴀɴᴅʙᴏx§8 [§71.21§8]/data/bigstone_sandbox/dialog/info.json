@@ -79,7 +79,7 @@
                     "color": "yellow",
                     "click_event": {
                         "action": "open_url",
-                        "url": "https://crazyh2.github.io/Bigstone/standards.html"
+                        "url": "https://wiki.bigstone.ovh/standards.html"
                     }
                 },
                 {
@@ -230,7 +230,7 @@
             ],
             "action": {
                 "type": "open_url",
-                "url": "https://crazyh2.github.io/Bigstone"
+                "url": "https://wiki.bigstone.ovh"
             }
         },
         {
