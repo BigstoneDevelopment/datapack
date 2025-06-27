@@ -16,4 +16,7 @@ class Block:
         return self.id == other.id and (self.data | other.data) == self.data
 
 
-__all__ = ["Block"]
+Structure = list[list[list[Block | None]]]
+
+
+__all__ = ["Block", "Structure"]
