@@ -50,6 +50,3 @@ data remove storage bigstone_sandbox:components loaded
 data remove storage bigstone_sandbox:components args
 
 data modify storage bigstone_sandbox:components args set value {}
-
-# Add delay so you can see reload msg
-schedule function bigstone_sandbox:components/init_default_components 2s
