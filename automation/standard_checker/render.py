@@ -52,7 +52,7 @@ def draw_voxel_texture(img: Image.Image, atlas: Image.Image, x: int, y: int, tx:
     img.paste(tile, (x - 8, y), tile.convert("RGBA"))
 
 
-def render_structure(structure: Structure, output_path: str = "head_render.png", debug: bool = False) -> Image.Image:
+def render_structure(structure: Structure, output_path: str = "img.png", debug: bool = False) -> Image.Image:
     # w, h = 128, 128
     # Estimate size from structure dimensions
     size_x = len(structure[0][0])
@@ -100,8 +100,6 @@ def render_structure(structure: Structure, output_path: str = "head_render.png",
 
     if debug:
         img.show()
-    else:
-        img = img.resize((8, 8), Image.Resampling.LANCZOS)
     img.save(output_path)
 
     return img
