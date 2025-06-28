@@ -1,0 +1,40 @@
+{
+  "standard": {
+    "top": [
+    ],
+    "bottom": [
+    ],
+    "horizontal": [
+        {
+            "name": "IBIN",
+            "position": [7, 2],
+            "color": "red"
+        },
+        {
+            "name": "OBIN",
+            "position": [10, 2],
+            "color": "red"
+        },
+        {
+            "name": "IHEX",
+            "position": [5, 2],
+            "color": "blue"
+        },
+        {
+            "name": "OHEX",
+            "position": [12, 2],
+            "color": "blue"
+        },
+        {
+            "name": "IHEX-STATE",
+            "position": [5, 2],
+            "color": "green"
+        },
+        {
+            "name": "OHEX-STATE",
+            "position": [12, 2],
+            "color": "green"
+        }
+    ]
+  }
+}
