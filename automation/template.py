@@ -17,6 +17,10 @@ AllValidComponentsTemplate = Literal[
 
 class Template:
     def __init__(self, content: str) -> None:
+        content = content.strip()
+        self.append = content.startswith("APPEND:")
+        if self.append:
+            content = content.removeprefix("APPEND:").strip()
         self.PATH = content.splitlines()[0].strip().removeprefix("PATH:").strip()
         self.content = "\n".join(content.splitlines()[1:])
 
@@ -33,6 +37,10 @@ class Template:
     def finished(self) -> bool:
         return not re.search(r"<\w+>", self.content)
 
+    def save(self) -> None:
+        with open(self.PATH, "a" if self.append else "w") as file:
+            file.write(self.content + "\n")
+
 
 TEMPLATES: dict[str, Template] = {}
 
@@ -46,4 +54,4 @@ if os.path.exists(templates_dir):
                 TEMPLATES[filename] = Template(content)
 
 
-__all__ = ["Template", "TEMPLATES"]
+__all__ = ["Template", "TEMPLATES", "AllValidComponentsTemplate"]

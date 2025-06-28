@@ -1,3 +1,4 @@
+APPEND:
 PATH: ../datapack/§6ʙɪɢꜱᴛᴏɴᴇ ꜱᴀɴᴅʙᴏx§8 [§71.21§8]/data/bigstone_sandbox/function/components/<structure_file_name>.mcfunction
 data modify storage bigstone_sandbox:components args.structure_name set value "<structure_file_name>"
 data modify storage bigstone_sandbox:components args.display_name set value "<structure_display_name>"
