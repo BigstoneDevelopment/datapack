@@ -16,13 +16,13 @@ BLOCK_COLORS: dict[str, tuple[int, int, int] | None] = {
     "minecraft:redstone_wire": (255, 0, 0),
 }
 
-TEXTURE_ATLAS_PATH = "textures.png"  # optional
+# TODO: load from online repo, for now it doesn't exist
+TEXTURE_ATLAS_PATH = "textures.png"  # optional texture atlas
 TEXTURE_SIZE = 16  # 16x16 pixels per tile
 BLOCK_TEXTURES: dict[str, tuple[int, int]] = {
     "minecraft:stone": (0, 0),
     "minecraft:grass": (1, 0),
     "minecraft:dirt": (2, 0),
-    # ... add more as needed
 }
 
 
@@ -105,3 +105,6 @@ def render_structure(structure: Structure, output_path: str = "head_render.png",
     img.save(output_path)
 
     return img
+
+
+__all__ = ["render_structure"]

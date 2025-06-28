@@ -10,6 +10,3 @@ args = parser.parse_args()
 structure = load("../datapack/§6ʙɪɢꜱᴛᴏɴᴇ ꜱᴀɴᴅʙᴏx§8 [§71.21§8]/data/bigstone_sandbox/structures/and.nbt")
 print(structure)
 image = render(structure, output_path=args.output, debug=args.debug)
-
-
-__all__ = ["load", "render"]
