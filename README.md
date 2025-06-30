@@ -11,9 +11,10 @@ The datapack will be mainly developed by CrazyH2 (thehuckle), however standards 
 - [x] Add options menu and button to open from info menu
 - [x] Make sure all scoreboards start with bs
 - [x] Make indicator helmet save player helmet before
-- [ ] Current 16x16x16 area preview. (Show the current 16x16x16 area the player is in with particles) (make it an option)
+- [ ] Current 16x16x16 area preview. (Show the current 16x16x16 area the player is in with particles) (make it an option) https://miro.com/welcomeonboard/eU9SODBJeXc1TGVLeVJFS2xUZFhqZVVFNk5oNWtmckFiQk9NcUZYQXNrQ1VtUHNZaEdtN3ZmeXZ1VTdZc3h6cC9SaFJJUlhwUXQyWSs0dDgyUEZKQ3kxbE91R0cyVmw2OHdUZm83bUJwQjB3WkZFdFFxWGJZMG96QzBsNE5ZR2VyVmtkMG5hNDA3dVlncnBvRVB2ZXBnPT0hdjE=?share_link_id=28555193166
 - [ ] Ghost preview
 - [ ] Placing schematics snapped to 16x16x16 grid
+- [ ] Make the inv like the creative inventory where you drag items to the hotbar. (Side buttons: UP, CYCLE THOUGH CATAGORIES (different pack), DOWN, EXIT)
 - [x] Building hotbar
   - [x] Auto exit when leave option
   - [x] When the datapack is enabled slot 9 is reserved for starting bigstone building mode
