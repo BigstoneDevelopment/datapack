@@ -11,6 +11,7 @@ The datapack will be mainly developed by CrazyH2 (thehuckle), however standards 
 - [x] Add options menu and button to open from info menu
 - [x] Make sure all scoreboards start with bs
 - [x] Make indicator helmet save player helmet before
+- [ ] language translations
 - [ ] Current 16x16x16 area preview. (Show the current 16x16x16 area the player is in with particles) (make it an option) https://miro.com/welcomeonboard/eU9SODBJeXc1TGVLeVJFS2xUZFhqZVVFNk5oNWtmckFiQk9NcUZYQXNrQ1VtUHNZaEdtN3ZmeXZ1VTdZc3h6cC9SaFJJUlhwUXQyWSs0dDgyUEZKQ3kxbE91R0cyVmw2OHdUZm83bUJwQjB3WkZFdFFxWGJZMG96QzBsNE5ZR2VyVmtkMG5hNDA3dVlncnBvRVB2ZXBnPT0hdjE=?share_link_id=28555193166
 - [ ] Ghost preview
 - [ ] Placing schematics snapped to 16x16x16 grid
