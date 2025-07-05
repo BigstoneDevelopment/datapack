@@ -17,7 +17,7 @@ The datapack will be mainly developed by CrazyH2 (thehuckle), however standards 
 - [ ] Placing schematics snapped to 16x16x16 grid
 - [ ] Make the inv like the creative inventory where you drag items to the hotbar. (Side buttons: UP, CYCLE THOUGH CATAGORIES (different pack), DOWN, EXIT)
   - [ ] add catagories
-  - [ ] make dropping the items not rotate when in inv (when detected in player inv add custom data which allows it to trigger rotating)
+  - [ ] make dropping the items not rotate when in inv (when detected in player mainhand and add custom data which allows it to trigger rotating)
   - [ ] hide chest minecart
   - [ ] make the interact info about components appear after put in inv.
   - [ ] make the rotate item return once gone in offhand or dropped
