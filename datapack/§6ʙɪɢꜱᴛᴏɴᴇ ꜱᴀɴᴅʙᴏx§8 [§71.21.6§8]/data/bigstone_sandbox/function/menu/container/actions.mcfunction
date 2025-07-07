@@ -14,6 +14,7 @@ execute store result score bs_page_number_temp consts run scoreboard players get
 
 # Max
 execute store result score bs_max_page_number_temp consts run scoreboard players get bs_max_page_number consts
+scoreboard players operation bs_max_page_number_temp consts -= #1 consts
 # Get remainder
 execute store result score bs_max_page_number_remainder consts run scoreboard players get bs_max_page_number_temp consts
 scoreboard players operation bs_max_page_number_remainder consts %= #24 consts

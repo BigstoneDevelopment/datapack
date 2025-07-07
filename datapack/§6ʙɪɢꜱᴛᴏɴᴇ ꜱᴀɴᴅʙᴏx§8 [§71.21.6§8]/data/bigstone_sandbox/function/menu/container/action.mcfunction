@@ -1,7 +1,7 @@
 # Play sound
 playsound minecraft:block.bamboo_wood.break ui @s
 
-# Spawn temo minecart
+# Spawn temp minecart
 summon minecraft:chest_minecart ~ ~ ~ {DisplayState:{Name:"minecraft:structure_void"},NoGravity:true,Invulnerable:true,Tags:["bs_menu_player_cursor"],Silent:true}
 
 # Storage manipulation

@@ -113,13 +113,28 @@
                 },
 
                 {
+                    "text": "↓ ",
+                    "color": "gray"
+                },
+                {
+                    "text": "ꜱᴄʀᴏʟʟ ᴅᴏᴡɴ ",
+                    "color": "white"
+                },
+                {
+                    "text": "↓",
+                    "color": "gray"
+                },
+                {
+                    "text": "\n\n\n\n\n\n\n"
+                },
+
+                {
                     "text": " Contributers",
                     "color": "yellow"
                 },
                 {
                     "text": "\n\n"
                 },
-
                 {
                     "text": "@CrazyH2 - ",
                     "color": "white",
@@ -135,7 +150,6 @@
                 {
                     "text": "\n\n"
                 },
-
                 {
                     "text": "@Spin4team4096 - ",
                     "color": "white",
@@ -151,7 +165,6 @@
                 {
                     "text": "\n\n"
                 },
-
                 {
                     "text": "@gingrspacecadet - ",
                     "color": "white",
@@ -167,7 +180,6 @@
                 {
                     "text": "\n\n"
                 },
-
                 {
                     "text": "@guigui0246 - ",
                     "color": "white",
@@ -178,6 +190,36 @@
                 },
                 {
                     "text": "Imported all existing components",
+                    "color": "gray"
+                },
+                {
+                    "text": "\n\n"
+                },
+                {
+                    "text": "@EnderHDMC - ",
+                    "color": "white",
+                    "click_event": {
+                        "action": "open_url",
+                        "url": "https://github.com/EnderHDMC"
+                    }
+                },
+                {
+                    "text": "Raycasting and Chunk Math",
+                    "color": "gray"
+                },
+                {
+                    "text": "\n\n"
+                },
+                {
+                    "text": "@Arttale - ",
+                    "color": "white",
+                    "click_event": {
+                        "action": "open_url",
+                        "url": "https://github.com/Arttale"
+                    }
+                },
+                {
+                    "text": "Hightlight Text Displays",
                     "color": "gray"
                 },
                 {

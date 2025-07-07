@@ -1,0 +1,1 @@
+execute as @p run clear @s *[minecraft:custom_data~{menu:{}}]

@@ -2,7 +2,7 @@
 execute as @a[nbt={SelectedItem:{id:"minecraft:redstone_lamp",count:1,components:{"minecraft:item_name":"bs_menu"}}}] run tag @s add bs_has_menu_item
 
 # Remove tag when not holding
-execute as @a[nbt=!{SelectedItem:{id:"minecraft:redstone_lamp",count:1,components:{"minecraft:item_name":"bs_menu"}}},tag=bs_has_menu_item] run clear @s *[minecraft:custom_data~{menu:{}}]
+execute at @a[nbt=!{SelectedItem:{id:"minecraft:redstone_lamp",count:1,components:{"minecraft:item_name":"bs_menu"}}},tag=bs_has_menu_item] run schedule function bigstone_sandbox:menu/container/clear 2t
 execute as @a[nbt=!{SelectedItem:{id:"minecraft:redstone_lamp",count:1,components:{"minecraft:item_name":"bs_menu"}}},tag=bs_has_menu_item] run tag @s remove bs_has_menu_item
 
 

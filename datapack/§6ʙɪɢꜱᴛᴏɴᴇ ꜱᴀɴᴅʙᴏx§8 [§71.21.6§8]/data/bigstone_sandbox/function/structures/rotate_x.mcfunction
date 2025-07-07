@@ -10,5 +10,11 @@ tellraw @s ["",{"text":"[","color":"dark_gray"},{"text":"\u0299\u026a\u0262\ua73
 
 title @s actionbar ["",{text:"⬆",bold:true,color:"gray"},{text:"   x ᴀxɪꜱ",color:"dark_aqua"},{text:" ʀᴏᴛᴀᴛɪᴏɴ ᴛᴏ ꜱᴇᴛ ",color:"gray"},{score:{name:"@s",objective:"bs_rotate_x_VAL"},color:"yellow"},{text:" ᴅᴇɢ   ",color:"yellow"},{text:"⬇",bold:true,color:"gray"}]
 
+# Put item back in hand
+data remove storage bigstone_sandbox:components_temp dropped
+data modify storage bigstone_sandbox:components_temp dropped set from entity @e[type=item,limit=1,sort=nearest] Item
+function bigstone_sandbox:menu/components/give_dropped with storage bigstone_sandbox:components_temp dropped
+data remove storage bigstone_sandbox:components_temp dropped
+
 # Kill item
 kill @e[name="component_bigstone_sandbox"]
