@@ -5,6 +5,6 @@
         }
     },
     "rewards": {
-        "function": "bigstone_sandbox:init/first_join"
+        "function": "bigstone_sandbox:events/first_join"
     }
 }

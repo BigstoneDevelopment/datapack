@@ -145,7 +145,7 @@
                     }
                 },
                 {
-                    "text": "Wiki Maintainer",
+                    "text": "Wiki Standards Maintainer",
                     "color": "gray"
                 },
                 {
@@ -161,7 +161,7 @@
                     }
                 },
                 {
-                    "text": "Wiki Founder",
+                    "text": "Wiki Creator",
                     "color": "gray"
                 },
                 {
@@ -177,7 +177,7 @@
                     }
                 },
                 {
-                    "text": "Workflows Maintainer",
+                    "text": "Imported all existing components",
                     "color": "gray"
                 },
                 {

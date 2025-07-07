@@ -1,0 +1,10 @@
+# Clear container
+data modify entity @s Items set value []
+
+# Action buttons
+$item replace entity @s container.8 with minecraft:wooden_shovel[custom_data={menu:{action:"function bigstone_sandbox:menu/actions/previous_page"}}, max_stack_size=1, attribute_modifiers=[{id:"block_interaction_range",type:"block_interaction_range",amount:-5,operation:"add_value",slot:"hand",display:{type:"hidden"}}], consumable={consume_seconds:100000}, custom_name=[{"text":"ꜱᴄʀᴏʟʟ ᴜᴘ","italic":false,"color":"yellow"}], lore=[[{"text":"Current Page:","italic":false,"color":"gray"}],[{"text":"$(current)/$(max)","italic":false,"color":"dark_gray"}]], item_model="bigstone_sandbox:scroll_up"]
+$item replace entity @s container.26 with minecraft:wooden_shovel[custom_data={menu:{action:"function bigstone_sandbox:menu/actions/next_page"}}, max_stack_size=1, attribute_modifiers=[{id:"block_interaction_range",type:"block_interaction_range",amount:-5,operation:"add_value",slot:"hand",display:{type:"hidden"}}], consumable={consume_seconds:100000}, custom_name=[{"text":"ꜱᴄʀᴏʟʟ ᴅᴏᴡɴ","italic":false,"color":"yellow"}], lore=[[{"text":"Current Page:","italic":false,"color":"gray"}],[{"text":"$(current)/$(max)","italic":false,"color":"dark_gray"}]], item_model="bigstone_sandbox:scroll_down"]
+item replace entity @s container.17 with minecraft:wooden_shovel[custom_data={menu:{action:"function bigstone_sandbox:menu/actions/next_catagory"}}, max_stack_size=1, attribute_modifiers=[{id:"block_interaction_range",type:"block_interaction_range",amount:-5,operation:"add_value",slot:"hand",display:{type:"hidden"}}], consumable={consume_seconds:100000}, custom_name=[{"text":"ɴᴇxᴛ ᴄᴀᴛᴀɢᴏʀʏ","italic":false,"color":"gold"}], lore=[[{"text":"Current Catagory:","italic":false,"color":"gray"}],[{"text":"Default","italic":false,"color":"dark_gray"}]], item_model="bigstone_sandbox:next_catagory"]
+
+# Components
+function bigstone_sandbox:menu/components/slots
