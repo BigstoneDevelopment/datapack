@@ -1,5 +1,5 @@
 # Kill dropped items
-kill @e[type=minecraft:item,nbt={Item:{components:{"minecraft:custom_data":{menu:{}}}}}]
+kill @e[type=minecraft:item,predicate=bigstone_sandbox:menu/is_menu_item]
 
 # Detect item pickup
 execute at @s as @a[distance=..20] if items entity @s player.cursor *[minecraft:custom_data~{menu:{}}] run function bigstone_sandbox:menu/container/action

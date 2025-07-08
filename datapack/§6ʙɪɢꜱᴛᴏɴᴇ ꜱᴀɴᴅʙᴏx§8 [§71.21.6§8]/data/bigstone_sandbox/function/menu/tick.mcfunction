@@ -1,9 +1,9 @@
 # Detect when holding item
-execute as @a[nbt={SelectedItem:{id:"minecraft:redstone_lamp",count:1,components:{"minecraft:item_name":"bs_menu"}}}] run tag @s add bs_has_menu_item
+execute as @a[predicate=bigstone_sandbox:menu/player_is_holding_menu_item] run tag @s add bs_has_menu_item
 
 # Remove tag when not holding
-execute at @a[nbt=!{SelectedItem:{id:"minecraft:redstone_lamp",count:1,components:{"minecraft:item_name":"bs_menu"}}},tag=bs_has_menu_item] run schedule function bigstone_sandbox:menu/container/clear 2t
-execute as @a[nbt=!{SelectedItem:{id:"minecraft:redstone_lamp",count:1,components:{"minecraft:item_name":"bs_menu"}}},tag=bs_has_menu_item] run tag @s remove bs_has_menu_item
+execute at @a[predicate=!bigstone_sandbox:menu/player_is_holding_menu_item,tag=bs_has_menu_item] run schedule function bigstone_sandbox:menu/container/clear 2t
+execute as @a[predicate=!bigstone_sandbox:menu/player_is_holding_menu_item,tag=bs_has_menu_item] run tag @s remove bs_has_menu_item
 
 
 # Handle removing minecart

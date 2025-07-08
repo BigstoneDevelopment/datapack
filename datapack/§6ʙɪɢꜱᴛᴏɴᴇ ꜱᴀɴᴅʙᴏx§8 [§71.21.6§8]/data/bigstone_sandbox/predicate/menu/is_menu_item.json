@@ -1,0 +1,16 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "type": "minecraft:item",
+    "slots": {
+      "contents": {
+        "predicate": {
+          "minecraft:custom_data": {
+            "menu": {}
+          }
+        }
+      }
+    }
+  }
+}
