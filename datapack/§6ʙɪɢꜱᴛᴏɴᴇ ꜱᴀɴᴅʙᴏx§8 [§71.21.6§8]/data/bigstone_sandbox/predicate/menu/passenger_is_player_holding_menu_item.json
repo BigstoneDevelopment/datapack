@@ -1,0 +1,17 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "passenger": {
+      "type": "minecraft:player",
+      "equipment": {
+        "mainhand": {
+          "items": "minecraft:redstone_lamp",
+          "components": {
+            "minecraft:item_name": "bs_menu"
+          }
+        }
+      }
+    }
+  }
+}

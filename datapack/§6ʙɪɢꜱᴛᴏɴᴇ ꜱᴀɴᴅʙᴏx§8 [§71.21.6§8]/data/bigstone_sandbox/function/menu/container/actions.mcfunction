@@ -1,11 +1,11 @@
 # Kill dropped items
-kill @e[type=minecraft:item,predicate=bigstone_sandbox:menu/is_menu_item]
+kill @e[type=minecraft:item,predicate=bigstone_sandbox:menu/is_menu_item,distance=..5]
 
 # Detect item pickup
-execute at @s as @a[distance=..20] if items entity @s player.cursor *[minecraft:custom_data~{menu:{}}] run function bigstone_sandbox:menu/container/action
+execute on passengers if items entity @s player.cursor *[minecraft:custom_data~{menu:{}}] run function bigstone_sandbox:menu/container/action
 
 # Clear inv of items
-execute at @s as @a[distance=..20] run clear @s *[minecraft:custom_data~{menu:{}}]
+execute on passengers run clear @s *[minecraft:custom_data~{menu:{}}]
 
 # Reset Gui slots
 data remove storage bigstone_sandbox:page_number_temp temp
